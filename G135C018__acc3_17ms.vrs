@@ -52,41 +52,41 @@
 55 2000 (servoRange6) Servo Range
 56 2000 (servoRange7) Servo Range
 57 2000 (servoRange8) Servo Range
-58 -2000 (servoRange9) Servo Range
-59 -2000 (servoRange10) Servo Range
-60 -2000 (servoRange11) Servo Range
-61 -2000 (servoRange12) Servo Range
-62 -2000 (servoRange13) Servo Range
-63 -2000 (servoRange14) Servo Range
-64 -2000 (servoRange15) Servo Range
-65 -2000 (servoRange16) Servo Range
-66 -2000 (servoRange17) Servo Range
-67 -2000 (servoRange18) Servo Range
-68 -2000 (servoRange19) Servo Range
-69 -2000 (servoRange20) Servo Range
-70 -2000 (servoRange21) Servo Range
-71 -2000 (servoRange22) Servo Range
-72 -2000 (servoRange23) Servo Range
-73 -2000 (servoRange24) Servo Range
-74 -2000 (servoRange25) Servo Range
-75 -2000 (servoRange26) Servo Range
-76 -2000 (servoRange27) Servo Range
-77 -2000 (servoRange28) Servo Range
-78 -2000 (servoRange29) Servo Range
-79 -2000 (servoRange30) Servo Range
-80 -2000 (servoRange31) Servo Range
-81 -2000 (servoRange32) Servo Range
+58 2000 (servoRange9) Servo Range
+59 2000 (servoRange10) Servo Range
+60 2000 (servoRange11) Servo Range
+61 2000 (servoRange12) Servo Range
+62 2000 (servoRange13) Servo Range
+63 2000 (servoRange14) Servo Range
+64 2000 (servoRange15) Servo Range
+65 2000 (servoRange16) Servo Range
+66 2000 (servoRange17) Servo Range
+67 2000 (servoRange18) Servo Range
+68 2000 (servoRange19) Servo Range
+69 2000 (servoRange20) Servo Range
+70 2000 (servoRange21) Servo Range
+71 2000 (servoRange22) Servo Range
+72 2000 (servoRange23) Servo Range
+73 2000 (servoRange24) Servo Range
+74 2000 (servoRange25) Servo Range
+75 2000 (servoRange26) Servo Range
+76 2000 (servoRange27) Servo Range
+77 2000 (servoRange28) Servo Range
+78 2000 (servoRange29) Servo Range
+79 2000 (servoRange30) Servo Range
+80 2000 (servoRange31) Servo Range
+81 2000 (servoRange32) Servo Range
 83 2000 (thIdle) Throttle Idle
 84 0 (thOverride) Remote throttle override
-85 2042 (xAcc0) X acc. zero
-86 2053 (yAcc0) Y acc. zero
-87 1094152 (pSpeed0) Airspd sensor zero
-88 147 (xAccScale) X acc. scale
-89 149 (yAccScale) Y acc. scale
-90 708 (pSpeedScale) Airspd sensor scale
+85 418 (xAcc0) X acc. zero
+86 -176 (yAcc0) Y acc. zero
+87 1146789 (pSpeed0) Airspd sensor zero
+88 22 (xAccScale) X acc. scale
+89 22 (yAccScale) Y acc. scale
+90 718 (pSpeedScale) Airspd sensor scale
 91 34 (helicopter) Helicopter Mode
 92 0 (declination) Declination
-93 30 (maxHoverSpd) Max Hover Spd
+93 56 (maxHoverSpd) Max Hover Spd
 94 6 (useCompass) Enable Compass
 95 4 (gpsType) GPS protocol
 96 19200 (gpsBaud) GPS baud
@@ -100,7 +100,7 @@
 104 0 (servoRudder) Rudder Servo config.
 105 0 (reflexFlaps) Reflex flaps
 106 0 (servoChute) Chute servo
-107 -13 (pAltSingleTemperatureRate) two points temperature rate of pressure altitude sensor
+107 96 (pAltSingleTemperatureRate) two points temperature rate of pressure altitude sensor
 108 90 (reflexSpeed) Reflex flap speed
 109 0 (servoAiFl) Aileron mixed into flaps
 110 0 (servoFlAi) Flap mixed into aileron
@@ -114,7 +114,7 @@
 118 20200220 (mp2Version) version
 119 999 (rcTimeout) RC connection Timeout
 120 5636096 (hstSize) History size
-121 915 (pAltScale) Pressure alt. scale factor
+121 922 (pAltScale) Pressure alt. scale factor
 122 52 (wptRadius) Waypoint Radius
 123 24010 (cctFinalLen) Circuit, length of final leg
 124 25 (rcFailTimeout) RC failure timer
@@ -138,9 +138,9 @@
 151 18767 (climbThrottle) Throttle setting to use during climb
 152 -1994 (cctAlt) Circuit height
 153 901 (fixed) Start of fixed portion of command buffer
-154 1259 (svBatScale) Servo Battery Scale
+154 1220 (svBatScale) Servo Battery Scale
 155 0 (svBatLow) Servo Battery Low Level
-156 1251 (mainBatScale) Main Battery Scale
+156 1221 (mainBatScale) Main Battery Scale
 157 1050 (mainBatLow) Main Battery Low Level
 158 0 (swapGyrosAndAcc) Swap Gyros and Accelerometers
 159 0 (negPitch) Invert sense of pitch gyro
@@ -165,9 +165,9 @@
 178 0 (vidField13) Video Field for Overlay Generator
 179 0 (vidField14) Video Field for Overlay Generator
 180 0 (vidField15) Video Field for Overlay Generator
-182 268 (pitchScale) Pitch Gyro Scale Factor
-183 268 (rollScale) Roll Gyro Scale Factor
-184 263 (yawScale) Yaw Gyro Scale Factor
+182 265 (pitchScale) Pitch Gyro Scale Factor
+183 261 (rollScale) Roll Gyro Scale Factor
+184 277 (yawScale) Yaw Gyro Scale Factor
 185 25000 (gyPitchGain) Pitch Gyro RC mode Gain
 186 -4000 (gyRollGain) Roll Gyro RC mode Gain
 187 0 (lock) Lock controls on launch
@@ -181,8 +181,8 @@
 195 0 (UNUSED) UNUSED
 196 268 (useGpsData) Use GPS data bit field
 197 0 (heliDeltaRev) heli Revolution Delta Throttle
-198 2063 (zAcc0) z acc. zero
-199 145 (zAccScale) z acc. scale
+198 367 (zAcc0) z acc. zero
+199 23 (zAccScale) z acc. scale
 200 901 (ptrn0) Pattern start
 201 902 (ptrn1) Pattern start
 202 903 (ptrn2) Pattern start
@@ -343,9 +343,9 @@
 517 128 (corrScalePitch) Pitch Correction Scale
 518 128 (corrScaleRoll) Roll Correction Scale
 519 128 (corrScaleYaw) Yaw Correction Scale
-520 23 (xMagScale) X Magnetometer Scale
-521 23 (yMagScale) Y Magnetometer Scale
-522 23 (zMagScale) Z Magnetometer Scale
+520 0 (xMagScale) X Magnetometer Scale
+521 0 (yMagScale) Y Magnetometer Scale
+522 0 (zMagScale) Z Magnetometer Scale
 523 0 (xMagZero) X Magnetometer Zero
 524 0 (yMagZero) Y Magnetometer Zero
 525 0 (zMagZero) Z Magnetometer Zero
@@ -362,7 +362,7 @@
 536 0 (swapXYMag) swap X and Y Magnetometer
 537 0 (swapZMag) magnetometer is installed vertically
 538 1 (autoZeroSpd) auto-zero airspeed upon initialization
-539 -6654 (spdTmpDelta) airspeed temperature correction factor
+539 8843 (spdTmpDelta) airspeed temperature correction factor
 540 0 (comPadChrs) pad communication characters
 541 0 (mixElIntoFlaps) mix Elevator into Flaps
 542 0 (elFromTh) elevator to add for a given throttle setting
@@ -407,8 +407,8 @@
 591 0 (flareType) flare type
 592 0 (switchType) takeoff switch type
 593 20 (takeoffAirspeedTimeout) takeoff airspeed timeout
-594 1019 (hardwareDisable) disable hardware bit field
-595 38718 (waypointVersion) waypoint version number increments on waypoint change
+594 812027 (hardwareDisable) disable hardware bit field
+595 56001 (waypointVersion) waypoint version number increments on waypoint change
 596 0 (lockDfn) lock settings
 597 0 (noseWheelServo) servo used for nose wheel
 598 0 (spoilerServo) servo that activates spoilers
@@ -450,15 +450,15 @@
 634 0 (maxAllowedPitch) maximum allowed pitch before an error is flagged
 635 0 (maxAllowedRoll) maximum allowed roll before an error is flagged
 636 0 (maxAllowedSpeed) maximum allowed airspeed before an error is flagged
-637 23 (maxTargetSpeed) maximum target airspeed
+637 56 (maxTargetSpeed) maximum target airspeed
 638 0 (minTargetSpeed) minimum target airspeed
-639 -1574 (maxTargetAltitude) maximum target altitude
+639 -1312 (maxTargetAltitude) maximum target altitude
 640 262 (minTargetAltitude) minimum target altitude
 641 0 (offGroundAlgorithm) method used to determine aircraft is off the ground
 642 0 (finalWindAltAdjust) amount to increase glide slope for wind speed
 643 0 (aglLowThrottleSetting) agl low throttle setting
 644 0 (aglLowThrottleSwitchAltitude) maximum agl altitude useable at low throttle settings
-645 250 (hoverHeadingSlewLimit) heading slew limit when hovering between waypoints
+645 200 (hoverHeadingSlewLimit) heading slew limit when hovering between waypoints
 646 179 (takeoffPitch) pitch to hold during takeoff
 647 8003 (circuitBaseLength) length of circuit base leg
 648 1 (enableSmoothGainScheduling) turn on interpolated gain schedules
@@ -490,18 +490,18 @@
 674 1718186567 (uavName1) uav name 1
 675 858857574 (uavName2) uav name 2
 676 809705525 (uavName3) uav name 3
-677 892416048 (uavName4) uav name 4
+677 942747696 (uavName4) uav name 4
 678 0 (flapSlewLimit) flap slew limit
 679 0 (maximumDistanceToRunway) maximum distance between takeoff position and runway
 680 0 (fasterStandardTelemetry) speed up standard telemetry
-681 2462 (temperatureAdustZero) reference temperature
-682 1 (xAccZeroTemperatureAdjustment) x accelerometer zero temperature calibration factor
-683 1 (yAccZeroTemperatureAdjustment) y accelerometer zero temperature calibration factor
+681 2657 (temperatureAdustZero) reference temperature
+682 -65 (xAccZeroTemperatureAdjustment) x accelerometer zero temperature calibration factor
+683 20 (yAccZeroTemperatureAdjustment) y accelerometer zero temperature calibration factor
 684 1 (negZ) invert sense of z accelerometer
 685 0 (answerModemTimeout) answer modem timeout for main COM port
 686 0 (answerModemTimeoutUART1) answer modem timeout for UART 1
 687 0 (answerModemTimeoutUART2) answer modem timeout for UART 2
-688 84940 (gpsstarttime) time of GPS startup
+688 91332 (gpsstarttime) time of GPS startup
 689 0 (targetcode) target drone authorization code
 690 0 (targetstatus) target status
 691 0 (enableTarget) enable target
@@ -510,21 +510,21 @@
 694 0 (ignoreRoll) ignore roll in aileron from roll
 695 0 (makeFlyToFromToMaybe) change flyTo commands into fromTo commands if they line up
 696 0 (hoverReduceYOffset) reduce Y offset when hovering far from a waypoint
-697 0 (zAccZeroTemperatureAdjustment) z accelerometer zero temperature calibration factor
+697 -87 (zAccZeroTemperatureAdjustment) z accelerometer zero temperature calibration factor
 698 0 (lrcEnable) settings for using LRC board
 699 0 (enableFastUserTlm) value of how fast for MP to send userTelemetry, upto 30hz, 0 = default Rate (5Hz)
 700 2388 (circuitTurnOffset) distance to allow for a turn in a circuit
 701 0 (takeoffExtraSpeed) add to climb speed when determining to exit takeoff command
 702 1 (aglMode) AGL mode - 1 keeps altitude above ground separate from Current_altitude
-703 -31664 (pitchDot0TemperatureAdjustment) pitch gyro zero temperature calibration factor
-704 -44392 (rollDot0TemperatureAdjustment) roll gyro zero temperature calibration factor
-705 -41877 (yawDot0TemperatureAdjustment) yaw gyro zero temperature calibration factor
-706 2154 (pitchTemperature0) pitch temperature zero
-707 2177 (rollTemperature0) roll temperature zero
-708 2154 (yawTemperature0) yaw temperature zero
-709 2097 (pitchDot0TempCompValue) pitch dot 0 value at temperature compensation
-710 2060 (rollDot0TempCompValue) roll dot 0 value at temperature compensation
-711 8793 (yawDot0TempCompValue) yaw dot 0 value at temperature compensation
+703 73019 (pitchDot0TemperatureAdjustment) pitch gyro zero temperature calibration factor
+704 104705 (rollDot0TemperatureAdjustment) roll gyro zero temperature calibration factor
+705 37255 (yawDot0TemperatureAdjustment) yaw gyro zero temperature calibration factor
+706 2186 (pitchTemperature0) pitch temperature zero
+707 2191 (rollTemperature0) roll temperature zero
+708 2192 (yawTemperature0) yaw temperature zero
+709 -2680 (pitchDot0TempCompValue) pitch dot 0 value at temperature compensation
+710 -11088 (rollDot0TempCompValue) roll dot 0 value at temperature compensation
+711 -9557 (yawDot0TempCompValue) yaw dot 0 value at temperature compensation
 712 128 (adcCalConstA1) ADC Calibration Constant A
 713 0 (adcCalConstB1) ADC Calibration Constant B
 714 0 (adcCalConstC1) ADC Calibration Constant C
@@ -601,7 +601,7 @@
 785 1547 (DataLogUserField8) Custom Field for DataLog
 786 0 (forceThreadExecute) if bit n = 1, then thread n + 1 will execute at least once per 5hz loop
 787 72 (arcadeModeConfig) arcade mode configuration, bit 0 = 1 sets altitude mode
-788 4 (ch5SwitchType) if 1, channel 5 switch enables arcade mode
+788 6 (ch5SwitchType) if 1, channel 5 switch enables arcade mode
 789 4 (fastLoopMultiplier) fast loop rate: 0 or 1=30hz, 2=60hz, 3=90hz, 4=120hz, 5=150hz, 6=180hz
 790 79 (rcAltitudeRate) Rate at which RC controls altitude. Measured in Feet * 16 / second
 791 40 (desiredSpeedSlewRate) Desired speed slew rate in Feet * 8 / second / second
@@ -632,24 +632,24 @@
 816 0 (camMaxRad2) Rotation 2: Camera Gimbal Max Radians
 817 0 (enableCamCorrectionCalc) Camera Corrections Calculation Bit Field
 818 13 (dVelBodyXGain) Desired body X velocity gain from position error
-819 66 (dVelBodyXSlewLimit) Desired body X velocity slew limit
-820 236 (dVelBodyXMax) Desired body X velocity maximum
+819 80 (dVelBodyXSlewLimit) Desired body X velocity slew limit
+820 446 (dVelBodyXMax) Desired body X velocity maximum
 821 13 (dVelBodyYGain) Desired body Y velocity gain from position error
-822 66 (dVelBodyYSlewLimit) Desired body Y velocity slew limit
-823 236 (dVelBodyYMax) Desired body Y velocity maximum
+822 80 (dVelBodyYSlewLimit) Desired body Y velocity slew limit
+823 446 (dVelBodyYMax) Desired body Y velocity maximum
 824 0 (invertedUAVMode) Inverted UAV Mode, 0:Roll to RightSide UP, 1: Fly Inverted
 825 10 (stuffServosCICTimeout) StuffServos Timeout to Revert back to CIC mode, in 1/5ths of a second
 826 0 (KnifeEdgeAngle) Roll Angle from +/- PI/2 in which UAV changes rudder/elevator behavior
-827 66 (dVelBodyFwdSlew) Desired velocity forwards slew limit
+827 52 (dVelBodyFwdSlew) Desired velocity forwards slew limit
 828 15 (heliWaitAfterTurn) Seconds/5 to wait after the heli has turned to face the next wpt
 829 1 (heliNavigationType) 0 = set dheading to face wpt, 1 = set dheading to track, 2 = fly through waypoint
 830 1551 (DataLogUserField9) Custom Field for DataLog
-831 1814 (DataLogUserField10) Custom Field for DataLog
-832 1813 (DataLogUserField11) Custom Field for DataLog
+831 1805 (DataLogUserField10) Custom Field for DataLog
+832 1552 (DataLogUserField11) Custom Field for DataLog
 833 1453 (DataLogUserField12) Custom Field for DataLog
 834 1556 (DataLogUserField13) Custom Field for DataLog
-835 1808 (DataLogUserField14) Custom Field for DataLog
-836 1641 (DataLogUserField15) Custom Field for DataLog
+835 1549 (DataLogUserField14) Custom Field for DataLog
+836 1580 (DataLogUserField15) Custom Field for DataLog
 837 1152 (DataLogUserField16) Custom Field for DataLog
 838 1153 (DataLogUserField17) Custom Field for DataLog
 839 1154 (DataLogUserField18) Custom Field for DataLog
@@ -657,7 +657,7 @@
 841 1560 (DataLogUserField20) Custom Field for DataLog
 842 1638 (DataLogUserField21) Custom Field for DataLog
 843 1582 (DataLogUserField22) Custom Field for DataLog
-844 1806 (DataLogUserField23) Custom Field for DataLog
+844 1550 (DataLogUserField23) Custom Field for DataLog
 845 1580 (DataLogUserField24) Custom Field for DataLog
 846 0 (altitudeErrorMinSlewRate) Min altitude error slew rate in Feet * 8 / second / (1/5th second)
 847 0 (altitudeErrorMinReduce) Reduce altitude error slew rate proportional to distance
@@ -682,28 +682,28 @@
 866 450 (RollOverRate) Roll Over Rate for roll over maneuver.  (Max change in Desired Roll)
 867 0 (dPitchforRollOver) Desired Pitch to bein roll over maneuver
 868 8191 (AccAlignField1) Accelerometer Alignment Field
-869 -101 (AccAlignField2) Accelerometer Alignment Field
-870 -14 (AccAlignField3) Accelerometer Alignment Field
-871 84 (AccAlignField4) Accelerometer Alignment Field
+869 -5 (AccAlignField2) Accelerometer Alignment Field
+870 4 (AccAlignField3) Accelerometer Alignment Field
+871 9 (AccAlignField4) Accelerometer Alignment Field
 872 8191 (AccAlignField5) Accelerometer Alignment Field
-873 0 (AccAlignField6) Accelerometer Alignment Field
-874 6 (AccAlignField7) Accelerometer Alignment Field
-875 328 (AccAlignField8) Accelerometer Alignment Field
-876 8198 (AccAlignField9) Accelerometer Alignment Field
+873 -10 (AccAlignField6) Accelerometer Alignment Field
+874 3 (AccAlignField7) Accelerometer Alignment Field
+875 16 (AccAlignField8) Accelerometer Alignment Field
+876 8191 (AccAlignField9) Accelerometer Alignment Field
 877 5 (gpsFixRate) GPS fix rate for Novatel (hz)
-878 8192 (GyroAlignField1) Gyro Alignment Field
-879 80 (GyroAlignField2) Gyro Alignment Field
-880 9 (GyroAlignField3) Gyro Alignment Field
-881 -9 (GyroAlignField4) Gyro Alignment Field
-882 8195 (GyroAlignField5) Gyro Alignment Field
-883 -281 (GyroAlignField6) Gyro Alignment Field
+878 8195 (GyroAlignField1) Gyro Alignment Field
+879 -245 (GyroAlignField2) Gyro Alignment Field
+880 216 (GyroAlignField3) Gyro Alignment Field
+881 82 (GyroAlignField4) Gyro Alignment Field
+882 8196 (GyroAlignField5) Gyro Alignment Field
+883 -352 (GyroAlignField6) Gyro Alignment Field
 884 -22 (GyroAlignField7) Gyro Alignment Field
-885 38 (GyroAlignField8) Gyro Alignment Field
+885 23 (GyroAlignField8) Gyro Alignment Field
 886 8190 (GyroAlignField9) Gyro Alignment Field
 887 0 (gpsDynamicModel) GPS Dynamic Model (for UBlox only in 2128Heli)
 888 3269 (heliMinHoverThrottleGnd) Transition to ground throttle threshold
-889 -36 (dRollTrim) Desired roll trim
-890 -18 (dPitchTrim) Desired pitch trim
+889 0 (dRollTrim) Desired roll trim
+890 18 (dPitchTrim) Desired pitch trim
 891 0 (lrcConfigMode) 
 892 0 (lrcConfigOtherChannel) 
 893 0 (rotationAxisDispX) X displacement from axis of rotation to sensors
@@ -712,21 +712,21 @@
 896 0 (camDMultGimbalA) Camera Gimbal A D-Term Multiplier
 897 0 (camDMultGimbalB) Camera Gimbal B D-Term Multiplier
 898 0 (gpsFixDelay) GPS delay before fix time (ms)
-899 -1022 (MomentInertiaKineticEnergy1) MomentInertiaKineticEnergy Field
-900 1110 (MomentInertiaKineticEnergy2) MomentInertiaKineticEnergy Field
-901 -1421 (MomentInertiaKineticEnergy3) MomentInertiaKineticEnergy Field
-902 1323 (MomentInertiaKineticEnergy4) MomentInertiaKineticEnergy Field
-903 -7726 (MomentInertiaKineticEnergy5) MomentInertiaKineticEnergy Field
-904 7753 (MomentInertiaKineticEnergy6) MomentInertiaKineticEnergy Field
-905 -988 (MomentInertiaKineticEnergy7) MomentInertiaKineticEnergy Field
-906 1175 (MomentInertiaKineticEnergy8) MomentInertiaKineticEnergy Field
-907 -1371 (MomentInertiaKineticEnergy9) MomentInertiaKineticEnergy Field
-908 1411 (MomentInertiaKineticEnergy10) MomentInertiaKineticEnergy Field
-909 -7792 (MomentInertiaKineticEnergy11) MomentInertiaKineticEnergy Field
-910 7849 (MomentInertiaKineticEnergy12) MomentInertiaKineticEnergy Field
-911 -64 (MomentInertiaKineticEnergy13) MomentInertiaKineticEnergy Field
-912 -44 (MomentInertiaKineticEnergy14) MomentInertiaKineticEnergy Field
-913 5 (MomentInertiaKineticEnergy15) MomentInertiaKineticEnergy Field
+899 8727 (MomentInertiaKineticEnergy1) MomentInertiaKineticEnergy Field
+900 -9001 (MomentInertiaKineticEnergy2) MomentInertiaKineticEnergy Field
+901 1117 (MomentInertiaKineticEnergy3) MomentInertiaKineticEnergy Field
+902 -1141 (MomentInertiaKineticEnergy4) MomentInertiaKineticEnergy Field
+903 8609 (MomentInertiaKineticEnergy5) MomentInertiaKineticEnergy Field
+904 -8724 (MomentInertiaKineticEnergy6) MomentInertiaKineticEnergy Field
+905 8803 (MomentInertiaKineticEnergy7) MomentInertiaKineticEnergy Field
+906 -9011 (MomentInertiaKineticEnergy8) MomentInertiaKineticEnergy Field
+907 1117 (MomentInertiaKineticEnergy9) MomentInertiaKineticEnergy Field
+908 -1207 (MomentInertiaKineticEnergy10) MomentInertiaKineticEnergy Field
+909 8688 (MomentInertiaKineticEnergy11) MomentInertiaKineticEnergy Field
+910 -8636 (MomentInertiaKineticEnergy12) MomentInertiaKineticEnergy Field
+911 95 (MomentInertiaKineticEnergy13) MomentInertiaKineticEnergy Field
+912 19 (MomentInertiaKineticEnergy14) MomentInertiaKineticEnergy Field
+913 38 (MomentInertiaKineticEnergy15) MomentInertiaKineticEnergy Field
 914 0 (MomentInertiaKineticEnergy16) MomentInertiaKineticEnergy Field
 915 0 (MomentInertiaKineticEnergy17) MomentInertiaKineticEnergy Field
 916 0 (MomentInertiaKineticEnergy18) MomentInertiaKineticEnergy Field
@@ -776,7 +776,7 @@
 960 32767 (rcRudderScale) Scale for rudder input from RC transmitter
 961 0 (mixingModeModifier) Bit Field for adjusting various mixing modes
 962 0 (pSpdZeroTemperatureAdjustment) pSpd zero temperature calibration factor
-963 2204 (pSpdTemperatureAdjustZero) pSpd zero temperature calibration zero
+963 2280 (pSpdTemperatureAdjustZero) pSpd zero temperature calibration zero
 964 87 (gpsAntennaPosX) X position of antenna relative to origin of rotation (ft*64)
 965 0 (gpsAntennaPosY) Y position of antenna relative to origin of rotation (ft*64)
 966 0 (heliMixingMode) Helicopter Mixing Mode
@@ -817,9 +817,9 @@
 3002 0 (pidGnSchb0) pid Gain Schedule Maximums (gs=b)
 3003 0 (pidGnSchc0) pid Gain Schedule Maximums (gs=c)
 3004 0 (pidGnSchd0) pid Gain Schedule Maximums (gs=d)
-3005 -900 (pidMultPa0) pid P Multiplier (gs=a)
-3006 -150 (pidMultIa0) pid I Multiplier (gs=a)
-3007 -175 (pidMultDa0) pid D Multiplier (gs=a)
+3005 -1122 (pidMultPa0) pid P Multiplier (gs=a)
+3006 -112 (pidMultIa0) pid I Multiplier (gs=a)
+3007 -107 (pidMultDa0) pid D Multiplier (gs=a)
 3008 0 (pidMultDDa0) pid DD Multiplier (gs=a)
 3009 0 (pidMultPb0) pid P Multiplier (gs=b)
 3010 0 (pidMultIb0) pid I Multiplier (gs=b)
@@ -2401,7 +2401,7 @@
 4602 0 (pidGnSchb16) pid Gain Schedule Maximums (gs=b)
 4603 0 (pidGnSchc16) pid Gain Schedule Maximums (gs=c)
 4604 0 (pidGnSchd16) pid Gain Schedule Maximums (gs=d)
-4605 16500 (pidMultPa16) pid P Multiplier (gs=a)
+4605 10000 (pidMultPa16) pid P Multiplier (gs=a)
 4606 0 (pidMultIa16) pid I Multiplier (gs=a)
 4607 0 (pidMultDa16) pid D Multiplier (gs=a)
 4608 0 (pidMultDDa16) pid DD Multiplier (gs=a)
@@ -2500,7 +2500,7 @@
 4702 0 (pidGnSchb17) pid Gain Schedule Maximums (gs=b)
 4703 0 (pidGnSchc17) pid Gain Schedule Maximums (gs=c)
 4704 0 (pidGnSchd17) pid Gain Schedule Maximums (gs=d)
-4705 12000 (pidMultPa17) pid P Multiplier (gs=a)
+4705 9500 (pidMultPa17) pid P Multiplier (gs=a)
 4706 0 (pidMultIa17) pid I Multiplier (gs=a)
 4707 0 (pidMultDa17) pid D Multiplier (gs=a)
 4708 0 (pidMultDDa17) pid DD Multiplier (gs=a)
@@ -4079,9 +4079,9 @@
 6660 0 (cioConfigMode1) Custom I/O Config Mode
 6661 0 (cioConfigMode2) Custom I/O Config Mode
 6662 0 (cioConfigMode3) Custom I/O Config Mode
-6663 0 (cioConfigMode4) Custom I/O Config Mode
+6663 6 (cioConfigMode4) Custom I/O Config Mode
 6664 0 (cioConfigMode5) Custom I/O Config Mode
-6665 6 (cioConfigMode6) Custom I/O Config Mode
+6665 0 (cioConfigMode6) Custom I/O Config Mode
 6666 0 (cioConfigMode7) Custom I/O Config Mode
 6667 0 (cioConfigMode8) Custom I/O Config Mode
 6668 0 (cioConfigMode9) Custom I/O Config Mode
@@ -4099,9 +4099,9 @@
 6680 0 (cioConfigA1) Custom I/O Config A
 6681 0 (cioConfigA2) Custom I/O Config A
 6682 0 (cioConfigA3) Custom I/O Config A
-6683 0 (cioConfigA4) Custom I/O Config A
+6683 30775697 (cioConfigA4) Custom I/O Config A
 6684 0 (cioConfigA5) Custom I/O Config A
-6685 32868753 (cioConfigA6) Custom I/O Config A
+6685 0 (cioConfigA6) Custom I/O Config A
 6686 6 (cioConfigA7) Custom I/O Config A
 6687 0 (cioConfigA8) Custom I/O Config A
 6688 0 (cioConfigA9) Custom I/O Config A
@@ -4119,9 +4119,9 @@
 6700 0 (cioConfigB1) Custom I/O Config B
 6701 0 (cioConfigB2) Custom I/O Config B
 6702 0 (cioConfigB3) Custom I/O Config B
-6703 0 (cioConfigB4) Custom I/O Config B
+6703 6 (cioConfigB4) Custom I/O Config B
 6704 0 (cioConfigB5) Custom I/O Config B
-6705 6 (cioConfigB6) Custom I/O Config B
+6705 0 (cioConfigB6) Custom I/O Config B
 6706 0 (cioConfigB7) Custom I/O Config B
 6707 0 (cioConfigB8) Custom I/O Config B
 6708 0 (cioConfigB9) Custom I/O Config B
@@ -4370,8 +4370,8 @@
 6952 0 (crcDisableChangeMonitoring) Disable CRC change monitoring if the bit is set
 6953 0 (crcNeverChanges) Fatal error if CRC changes and the bit is set
 6954 0 (UNUSED) UNUSED
-6955 2382 (yAcclTemperature0) yAccl temperature zero
-6956 2517 (zAcclTemperature0) zAccl temperature zero
+6955 2572 (yAcclTemperature0) yAccl temperature zero
+6956 2693 (zAcclTemperature0) zAccl temperature zero
 6957 0 (PICWatchdogConfig) PIC watchdog Configuration
 6958 0 (quadAngleRateLimit) Multirotor angular rate limit
 6959 0 (initHoldAltitudeAGL) Initial hold altitude AGL mode
@@ -4833,15 +4833,15 @@
 8764 0 (gLHeightAboveAimingPtSafetyFctr) Glide Landing Function - Height At Aiming Point Safety Factor
 8765 0 (simCalibrationSingleType) Simulator Calibration Single Type
 8766 0 (simCalibrationMultiType) Simulator Calibration Multi Type
-8767 306047800 (simCalibrationVersion) Simulator Calibration Version
-8768 20180109 (simCalibrationDate) Simulator Calibration Date
-8769 52480 (maxDistToWpt) Max distance to waypoint
+8767 307146400 (simCalibrationVersion) Simulator Calibration Version
+8768 20190916 (simCalibrationDate) Simulator Calibration Date
+8769 131200 (maxDistToWpt) Max distance to waypoint
 8770 8 (validHeadingCount) Valid heading count
 8771 0 (uavVrsVersion) UAV VRS Version
 8772 65536 (circuitOptions) Circuit Options
 8773 0 (thFrSpdBumpGlideslopeOffset) Th Fr Spd Appr Bump Gs Offset Dist
 8774 0 (patternCctFastAbort) Pattern Circuit Fast Abort
-8775 306046800 (calibVersionChamber3) Chamber 3 Calibration Version
+8775 307146400 (calibVersionChamber3) Chamber 3 Calibration Version
 8776 0 ()
 8777 0 ()
 8778 0 ()
@@ -4879,7 +4879,7 @@
 8810 0 (overrideModel4) model IDs for model/version override
 8811 0 (UNUSED) UNUSED
 8812 0 (lrcArcadeEnableChannel) LRC Arcade Enable Channel
-8813 31 (hoverDescentRate) Hover Descent Rate
+8813 26 (hoverDescentRate) Hover Descent Rate
 8814 0 (camRollOffset) Camera Roll offset from UAV Body
 8815 0 (camYawOffset) Camera Yaw offset from UAV Body
 8816 0 (differentialAilerons) Differential Ailerons
@@ -4894,14 +4894,14 @@
 8825 128 (kalmanFilterGpsGain) Kalman Filter GPS Gain
 8826 0 (vrsLockOptions) VRS Lock Options
 8827 8 (geofenceNumPoints) Number of Geofence Points
-8828 57455701 (geofencePointsLon1) Geofence Point Longitude
-8829 57508555 (geofencePointsLon2) Geofence Point Longitude
-8830 57529834 (geofencePointsLon3) Geofence Point Longitude
-8831 57531681 (geofencePointsLon4) Geofence Point Longitude
-8832 57453519 (geofencePointsLon5) Geofence Point Longitude
-8833 57407253 (geofencePointsLon6) Geofence Point Longitude
-8834 57382528 (geofencePointsLon7) Geofence Point Longitude
-8835 57407253 (geofencePointsLon8) Geofence Point Longitude
+8828 57455703 (geofencePointsLon1) Geofence Point Longitude
+8829 57508559 (geofencePointsLon2) Geofence Point Longitude
+8830 57529836 (geofencePointsLon3) Geofence Point Longitude
+8831 57531676 (geofencePointsLon4) Geofence Point Longitude
+8832 57453520 (geofencePointsLon5) Geofence Point Longitude
+8833 57407258 (geofencePointsLon6) Geofence Point Longitude
+8834 57382530 (geofencePointsLon7) Geofence Point Longitude
+8835 57407246 (geofencePointsLon8) Geofence Point Longitude
 8836 1700000000 (geofencePointsLon9) Geofence Point Longitude
 8837 1700000000 (geofencePointsLon10) Geofence Point Longitude
 8838 1700000000 (geofencePointsLon11) Geofence Point Longitude
@@ -4914,14 +4914,14 @@
 8845 1700000000 (geofencePointsLon18) Geofence Point Longitude
 8846 1700000000 (geofencePointsLon19) Geofence Point Longitude
 8847 1700000000 (geofencePointsLon20) Geofence Point Longitude
-8848 543963714 (geofencePointsLat1) Geofence Point Latitude
-8849 543951962 (geofencePointsLat2) Geofence Point Latitude
-8850 543934450 (geofencePointsLat3) Geofence Point Latitude
-8851 543880563 (geofencePointsLat4) Geofence Point Latitude
-8852 543865946 (geofencePointsLat5) Geofence Point Latitude
+8848 543963708 (geofencePointsLat1) Geofence Point Latitude
+8849 543951965 (geofencePointsLat2) Geofence Point Latitude
+8850 543934451 (geofencePointsLat3) Geofence Point Latitude
+8851 543880565 (geofencePointsLat4) Geofence Point Latitude
+8852 543865942 (geofencePointsLat5) Geofence Point Latitude
 8853 543900445 (geofencePointsLat6) Geofence Point Latitude
-8854 543928167 (geofencePointsLat7) Geofence Point Latitude
-8855 543955874 (geofencePointsLat8) Geofence Point Latitude
+8854 543928159 (geofencePointsLat7) Geofence Point Latitude
+8855 543955877 (geofencePointsLat8) Geofence Point Latitude
 8856 1700000000 (geofencePointsLat9) Geofence Point Latitude
 8857 1700000000 (geofencePointsLat10) Geofence Point Latitude
 8858 1700000000 (geofencePointsLat11) Geofence Point Latitude
@@ -4983,7 +4983,7 @@
 8914 0 (dataLogHeaderUserFields8) datalog header user field
 8915 0 (QNHMode) QNH mode
 8916 0 (maxLaunchPlatformSpeed) Maximum speed of moving launch platform during launch
-8917 32868753 (ppmControlTpuChannel ) On/Off RC Transmitter PPM encoder and RC PPM channel assignment
+8917 30775697 (ppmControlTpuChannel ) On/Off RC Transmitter PPM encoder and RC PPM channel assignment
 8918 0 (heliSlungLoadGroundOffsetE) East Coordinates of Slung Load On-Ground Position Relative to Takeoff/Circuit
 8919 0 (heliSlungLoadGroundOffsetN) North Coordinates of Slung Load On-Ground Position Relative to Takeoff/Circuit
 8920 0 (heliSlungLoadGroundTransitionAlt) Slung Load Pick-Up/Drop-Off Altitude Relative to Takeoff/Circuit
@@ -5036,8 +5036,8 @@
 8967 1028 (recoverFromCompassError) Recover from compass error
 8968 0 (vrsResetType1) VRS reset type 1
 8969 0 (vrsResetType2) VRS reset type 2
-8970 322304 (svBatScaleHP) High precision servo battery scale
-8971 320256 (mainBatScaleHP) High precision main battery scale
+8970 312320 (svBatScaleHP) High precision servo battery scale
+8971 312576 (mainBatScaleHP) High precision main battery scale
 8972 1 (useLckf) Use LCKF
 8973 0 (gsStageTwoLen) GlideSlope Stage Two Length
 8974 0 (gsStageTwoHeight) GlideSlope Stage Two Height
@@ -5289,86 +5289,86 @@
 31501 800 (onGroundCompassCheckThreshold) On Ground Compass Check Threshold
 31502 0 (enableTrafficMonitoring) Enable monitoring ADSB traffic for possible collision
 31503 0 (extGuideDecisionEngineStopDistance) External Guide Decision Engine Stop Distance
-9000 -3668 (calibrationTemperaturea0) Calibration Temperature
-9001 -2133 (calibrationTemperatureb0) Calibration Temperature
-9002 -1011 (calibrationTemperaturec0) Calibration Temperature
-9003 179 (calibrationTemperatured0) Calibration Temperature
-9004 1403 (calibrationTemperaturee0) Calibration Temperature
-9005 2442 (calibrationTemperaturef0) Calibration Temperature
-9006 3601 (calibrationTemperatureg0) Calibration Temperature
-9007 5266 (calibrationTemperatureh0) Calibration Temperature
-9008 7470 (calibrationTemperaturei0) Calibration Temperature
-9009 9590 (calibrationTemperaturej0) Calibration Temperature
-9010 290628 (calibrationValuea0) Calibration Value
-9011 290883 (calibrationValueb0) Calibration Value
-9012 291075 (calibrationValuec0) Calibration Value
-9013 291242 (calibrationValued0) Calibration Value
-9014 291428 (calibrationValuee0) Calibration Value
-9015 291567 (calibrationValuef0) Calibration Value
-9016 291722 (calibrationValueg0) Calibration Value
-9017 291947 (calibrationValueh0) Calibration Value
-9018 292195 (calibrationValuei0) Calibration Value
-9019 292436 (calibrationValuej0) Calibration Value
-9020 -3514 (calibrationTemperaturea1) Calibration Temperature
-9021 -2104 (calibrationTemperatureb1) Calibration Temperature
-9022 -976 (calibrationTemperaturec1) Calibration Temperature
-9023 191 (calibrationTemperatured1) Calibration Temperature
-9024 1410 (calibrationTemperaturee1) Calibration Temperature
-9025 2452 (calibrationTemperaturef1) Calibration Temperature
-9026 3602 (calibrationTemperatureg1) Calibration Temperature
-9027 5248 (calibrationTemperatureh1) Calibration Temperature
-9028 7412 (calibrationTemperaturei1) Calibration Temperature
-9029 9511 (calibrationTemperaturej1) Calibration Temperature
-9030 281638 (calibrationValuea1) Calibration Value
-9031 281877 (calibrationValueb1) Calibration Value
-9032 282064 (calibrationValuec1) Calibration Value
-9033 282239 (calibrationValued1) Calibration Value
-9034 282450 (calibrationValuee1) Calibration Value
-9035 282578 (calibrationValuef1) Calibration Value
-9036 282749 (calibrationValueg1) Calibration Value
-9037 282941 (calibrationValueh1) Calibration Value
-9038 283210 (calibrationValuei1) Calibration Value
-9039 283420 (calibrationValuej1) Calibration Value
-9040 -3349 (calibrationTemperaturea2) Calibration Temperature
-9041 -2052 (calibrationTemperatureb2) Calibration Temperature
-9042 -949 (calibrationTemperaturec2) Calibration Temperature
-9043 207 (calibrationTemperatured2) Calibration Temperature
-9044 1424 (calibrationTemperaturee2) Calibration Temperature
-9045 2462 (calibrationTemperaturef2) Calibration Temperature
-9046 3600 (calibrationTemperatureg2) Calibration Temperature
-9047 5208 (calibrationTemperatureh2) Calibration Temperature
-9048 7324 (calibrationTemperaturei2) Calibration Temperature
-9049 9357 (calibrationTemperaturej2) Calibration Temperature
-9050 259700 (calibrationValuea2) Calibration Value
-9051 259918 (calibrationValueb2) Calibration Value
-9052 260082 (calibrationValuec2) Calibration Value
-9053 260258 (calibrationValued2) Calibration Value
-9054 260456 (calibrationValuee2) Calibration Value
-9055 260590 (calibrationValuef2) Calibration Value
-9056 260749 (calibrationValueg2) Calibration Value
-9057 260954 (calibrationValueh2) Calibration Value
-9058 261239 (calibrationValuei2) Calibration Value
-9059 261466 (calibrationValuej2) Calibration Value
-9060 -3756 (calibrationTemperaturea3) Calibration Temperature
-9061 -2183 (calibrationTemperatureb3) Calibration Temperature
-9062 -1040 (calibrationTemperaturec3) Calibration Temperature
-9063 171 (calibrationTemperatured3) Calibration Temperature
-9064 1398 (calibrationTemperaturee3) Calibration Temperature
-9065 2437 (calibrationTemperaturef3) Calibration Temperature
-9066 3601 (calibrationTemperatureg3) Calibration Temperature
-9067 5287 (calibrationTemperatureh3) Calibration Temperature
-9068 7498 (calibrationTemperaturei3) Calibration Temperature
-9069 9654 (calibrationTemperaturej3) Calibration Temperature
-9070 237731 (calibrationValuea3) Calibration Value
-9071 237990 (calibrationValueb3) Calibration Value
-9072 238180 (calibrationValuec3) Calibration Value
-9073 238353 (calibrationValued3) Calibration Value
-9074 238539 (calibrationValuee3) Calibration Value
-9075 238667 (calibrationValuef3) Calibration Value
-9076 238827 (calibrationValueg3) Calibration Value
-9077 239046 (calibrationValueh3) Calibration Value
-9078 239339 (calibrationValuei3) Calibration Value
-9079 239570 (calibrationValuej3) Calibration Value
+9000 -3597 (calibrationTemperaturea0) Calibration Temperature
+9001 -2208 (calibrationTemperatureb0) Calibration Temperature
+9002 -990 (calibrationTemperaturec0) Calibration Temperature
+9003 213 (calibrationTemperatured0) Calibration Temperature
+9004 1520 (calibrationTemperaturee0) Calibration Temperature
+9005 2662 (calibrationTemperaturef0) Calibration Temperature
+9006 3719 (calibrationTemperatureg0) Calibration Temperature
+9007 5387 (calibrationTemperatureh0) Calibration Temperature
+9008 7625 (calibrationTemperaturei0) Calibration Temperature
+9009 9756 (calibrationTemperaturej0) Calibration Temperature
+9010 211857 (calibrationValuea0) Calibration Value
+9011 212086 (calibrationValueb0) Calibration Value
+9012 212267 (calibrationValuec0) Calibration Value
+9013 212462 (calibrationValued0) Calibration Value
+9014 212675 (calibrationValuee0) Calibration Value
+9015 212855 (calibrationValuef0) Calibration Value
+9016 213008 (calibrationValueg0) Calibration Value
+9017 213273 (calibrationValueh0) Calibration Value
+9018 213604 (calibrationValuei0) Calibration Value
+9019 213929 (calibrationValuej0) Calibration Value
+9020 -3499 (calibrationTemperaturea1) Calibration Temperature
+9021 -2202 (calibrationTemperatureb1) Calibration Temperature
+9022 -987 (calibrationTemperaturec1) Calibration Temperature
+9023 208 (calibrationTemperatured1) Calibration Temperature
+9024 1522 (calibrationTemperaturee1) Calibration Temperature
+9025 2662 (calibrationTemperaturef1) Calibration Temperature
+9026 3710 (calibrationTemperatureg1) Calibration Temperature
+9027 5371 (calibrationTemperatureh1) Calibration Temperature
+9028 7594 (calibrationTemperaturei1) Calibration Temperature
+9029 9703 (calibrationTemperaturej1) Calibration Temperature
+9030 151552 (calibrationValuea1) Calibration Value
+9031 151737 (calibrationValueb1) Calibration Value
+9032 151886 (calibrationValuec1) Calibration Value
+9033 152038 (calibrationValued1) Calibration Value
+9034 152196 (calibrationValuee1) Calibration Value
+9035 152334 (calibrationValuef1) Calibration Value
+9036 152449 (calibrationValueg1) Calibration Value
+9037 152660 (calibrationValueh1) Calibration Value
+9038 152916 (calibrationValuei1) Calibration Value
+9039 153166 (calibrationValuej1) Calibration Value
+9040 -3412 (calibrationTemperaturea2) Calibration Temperature
+9041 -2221 (calibrationTemperatureb2) Calibration Temperature
+9042 -1001 (calibrationTemperaturec2) Calibration Temperature
+9043 185 (calibrationTemperatured2) Calibration Temperature
+9044 1491 (calibrationTemperaturee2) Calibration Temperature
+9045 2657 (calibrationTemperaturef2) Calibration Temperature
+9046 3697 (calibrationTemperatureg2) Calibration Temperature
+9047 5329 (calibrationTemperatureh2) Calibration Temperature
+9048 7517 (calibrationTemperaturei2) Calibration Temperature
+9049 9576 (calibrationTemperaturej2) Calibration Temperature
+9050 5754 (calibrationValuea2) Calibration Value
+9051 5855 (calibrationValueb2) Calibration Value
+9052 5929 (calibrationValuec2) Calibration Value
+9053 6013 (calibrationValued2) Calibration Value
+9054 6095 (calibrationValuee2) Calibration Value
+9055 6162 (calibrationValuef2) Calibration Value
+9056 6217 (calibrationValueg2) Calibration Value
+9057 6310 (calibrationValueh2) Calibration Value
+9058 6421 (calibrationValuei2) Calibration Value
+9059 6530 (calibrationValuej2) Calibration Value
+9060 -4041 (calibrationTemperaturea3) Calibration Temperature
+9061 -2214 (calibrationTemperatureb3) Calibration Temperature
+9062 -1000 (calibrationTemperaturec3) Calibration Temperature
+9063 212 (calibrationTemperatured3) Calibration Temperature
+9064 1516 (calibrationTemperaturee3) Calibration Temperature
+9065 2669 (calibrationTemperaturef3) Calibration Temperature
+9066 3724 (calibrationTemperatureg3) Calibration Temperature
+9067 5403 (calibrationTemperatureh3) Calibration Temperature
+9068 7658 (calibrationTemperaturei3) Calibration Temperature
+9069 9821 (calibrationTemperaturej3) Calibration Temperature
+9070 -140162 (calibrationValuea3) Calibration Value
+9071 -140091 (calibrationValueb3) Calibration Value
+9072 -140059 (calibrationValuec3) Calibration Value
+9073 -140047 (calibrationValued3) Calibration Value
+9074 -140026 (calibrationValuee3) Calibration Value
+9075 -140015 (calibrationValuef3) Calibration Value
+9076 -140021 (calibrationValueg3) Calibration Value
+9077 -140002 (calibrationValueh3) Calibration Value
+9078 -140030 (calibrationValuei3) Calibration Value
+9079 -140028 (calibrationValuej3) Calibration Value
 9080 0 (calibrationTemperaturea4) Calibration Temperature
 9081 0 (calibrationTemperatureb4) Calibration Temperature
 9082 0 (calibrationTemperaturec4) Calibration Temperature
@@ -5379,7 +5379,7 @@
 9087 0 (calibrationTemperatureh4) Calibration Temperature
 9088 0 (calibrationTemperaturei4) Calibration Temperature
 9089 0 (calibrationTemperaturej4) Calibration Temperature
-9090 14740 (calibrationValuea4) Calibration Value
+9090 2208 (calibrationValuea4) Calibration Value
 9091 0 (calibrationValueb4) Calibration Value
 9092 0 (calibrationValuec4) Calibration Value
 9093 0 (calibrationValued4) Calibration Value
@@ -5389,86 +5389,86 @@
 9097 0 (calibrationValueh4) Calibration Value
 9098 0 (calibrationValuei4) Calibration Value
 9099 0 (calibrationValuej4) Calibration Value
-9100 -3208 (calibrationTemperaturea5) Calibration Temperature
-9101 -2109 (calibrationTemperatureb5) Calibration Temperature
-9102 -1001 (calibrationTemperaturec5) Calibration Temperature
-9103 151 (calibrationTemperatured5) Calibration Temperature
-9104 1377 (calibrationTemperaturee5) Calibration Temperature
-9105 2421 (calibrationTemperaturef5) Calibration Temperature
-9106 3541 (calibrationTemperatureg5) Calibration Temperature
-9107 5140 (calibrationTemperatureh5) Calibration Temperature
-9108 7259 (calibrationTemperaturei5) Calibration Temperature
-9109 9256 (calibrationTemperaturej5) Calibration Temperature
-9110 291582 (calibrationValuea5) Calibration Value
-9111 291823 (calibrationValueb5) Calibration Value
-9112 292025 (calibrationValuec5) Calibration Value
-9113 292244 (calibrationValued5) Calibration Value
-9114 292446 (calibrationValuee5) Calibration Value
-9115 292609 (calibrationValuef5) Calibration Value
-9116 292776 (calibrationValueg5) Calibration Value
-9117 293004 (calibrationValueh5) Calibration Value
-9118 293229 (calibrationValuei5) Calibration Value
-9119 293445 (calibrationValuej5) Calibration Value
-9120 -3038 (calibrationTemperaturea6) Calibration Temperature
-9121 -2110 (calibrationTemperatureb6) Calibration Temperature
-9122 -1011 (calibrationTemperaturec6) Calibration Temperature
-9123 141 (calibrationTemperatured6) Calibration Temperature
-9124 1363 (calibrationTemperaturee6) Calibration Temperature
-9125 2414 (calibrationTemperaturef6) Calibration Temperature
-9126 3529 (calibrationTemperatureg6) Calibration Temperature
-9127 5112 (calibrationTemperatureh6) Calibration Temperature
-9128 7242 (calibrationTemperaturei6) Calibration Temperature
-9129 9252 (calibrationTemperaturej6) Calibration Temperature
-9130 282621 (calibrationValuea6) Calibration Value
-9131 282830 (calibrationValueb6) Calibration Value
-9132 283032 (calibrationValuec6) Calibration Value
-9133 283235 (calibrationValued6) Calibration Value
-9134 283441 (calibrationValuee6) Calibration Value
-9135 283603 (calibrationValuef6) Calibration Value
-9136 283759 (calibrationValueg6) Calibration Value
-9137 283989 (calibrationValueh6) Calibration Value
-9138 284226 (calibrationValuei6) Calibration Value
-9139 284464 (calibrationValuej6) Calibration Value
-9140 -3067 (calibrationTemperaturea7) Calibration Temperature
-9141 -2144 (calibrationTemperatureb7) Calibration Temperature
-9142 -1055 (calibrationTemperaturec7) Calibration Temperature
-9143 115 (calibrationTemperatured7) Calibration Temperature
-9144 1343 (calibrationTemperaturee7) Calibration Temperature
-9145 2382 (calibrationTemperaturef7) Calibration Temperature
-9146 3517 (calibrationTemperatureg7) Calibration Temperature
-9147 5084 (calibrationTemperatureh7) Calibration Temperature
-9148 7230 (calibrationTemperaturei7) Calibration Temperature
-9149 9253 (calibrationTemperaturej7) Calibration Temperature
-9150 260822 (calibrationValuea7) Calibration Value
-9151 261013 (calibrationValueb7) Calibration Value
-9152 261221 (calibrationValuec7) Calibration Value
-9153 261441 (calibrationValued7) Calibration Value
-9154 261664 (calibrationValuee7) Calibration Value
-9155 261851 (calibrationValuef7) Calibration Value
-9156 262035 (calibrationValueg7) Calibration Value
-9157 262283 (calibrationValueh7) Calibration Value
-9158 262512 (calibrationValuei7) Calibration Value
-9159 262722 (calibrationValuej7) Calibration Value
-9160 -3207 (calibrationTemperaturea8) Calibration Temperature
-9161 -2072 (calibrationTemperatureb8) Calibration Temperature
-9162 -969 (calibrationTemperaturec8) Calibration Temperature
-9163 181 (calibrationTemperatured8) Calibration Temperature
-9164 1400 (calibrationTemperaturee8) Calibration Temperature
-9165 2435 (calibrationTemperaturef8) Calibration Temperature
-9166 3563 (calibrationTemperatureg8) Calibration Temperature
-9167 5159 (calibrationTemperatureh8) Calibration Temperature
-9168 7272 (calibrationTemperaturei8) Calibration Temperature
-9169 9266 (calibrationTemperaturej8) Calibration Temperature
-9170 239148 (calibrationValuea8) Calibration Value
-9171 239399 (calibrationValueb8) Calibration Value
-9172 239581 (calibrationValuec8) Calibration Value
-9173 239799 (calibrationValued8) Calibration Value
-9174 239987 (calibrationValuee8) Calibration Value
-9175 240149 (calibrationValuef8) Calibration Value
-9176 240305 (calibrationValueg8) Calibration Value
-9177 240537 (calibrationValueh8) Calibration Value
-9178 240772 (calibrationValuei8) Calibration Value
-9179 240964 (calibrationValuej8) Calibration Value
+9100 -3113 (calibrationTemperaturea5) Calibration Temperature
+9101 -2288 (calibrationTemperatureb5) Calibration Temperature
+9102 -1074 (calibrationTemperaturec5) Calibration Temperature
+9103 135 (calibrationTemperatured5) Calibration Temperature
+9104 1433 (calibrationTemperaturee5) Calibration Temperature
+9105 2614 (calibrationTemperaturef5) Calibration Temperature
+9106 3665 (calibrationTemperatureg5) Calibration Temperature
+9107 5280 (calibrationTemperatureh5) Calibration Temperature
+9108 7475 (calibrationTemperaturei5) Calibration Temperature
+9109 9543 (calibrationTemperaturej5) Calibration Temperature
+9110 205378 (calibrationValuea5) Calibration Value
+9111 205417 (calibrationValueb5) Calibration Value
+9112 205474 (calibrationValuec5) Calibration Value
+9113 205548 (calibrationValued5) Calibration Value
+9114 205614 (calibrationValuee5) Calibration Value
+9115 205680 (calibrationValuef5) Calibration Value
+9116 205716 (calibrationValueg5) Calibration Value
+9117 205741 (calibrationValueh5) Calibration Value
+9118 205693 (calibrationValuei5) Calibration Value
+9119 205526 (calibrationValuej5) Calibration Value
+9120 -3028 (calibrationTemperaturea6) Calibration Temperature
+9121 -2290 (calibrationTemperatureb6) Calibration Temperature
+9122 -1079 (calibrationTemperaturec6) Calibration Temperature
+9123 126 (calibrationTemperatured6) Calibration Temperature
+9124 1421 (calibrationTemperaturee6) Calibration Temperature
+9125 2606 (calibrationTemperaturef6) Calibration Temperature
+9126 3661 (calibrationTemperatureg6) Calibration Temperature
+9127 5268 (calibrationTemperatureh6) Calibration Temperature
+9128 7452 (calibrationTemperaturei6) Calibration Temperature
+9129 9533 (calibrationTemperaturej6) Calibration Temperature
+9130 144751 (calibrationValuea6) Calibration Value
+9131 144727 (calibrationValueb6) Calibration Value
+9132 144775 (calibrationValuec6) Calibration Value
+9133 144840 (calibrationValued6) Calibration Value
+9134 144887 (calibrationValuee6) Calibration Value
+9135 144933 (calibrationValuef6) Calibration Value
+9136 144943 (calibrationValueg6) Calibration Value
+9137 144933 (calibrationValueh6) Calibration Value
+9138 144838 (calibrationValuei6) Calibration Value
+9139 144589 (calibrationValuej6) Calibration Value
+9140 -3086 (calibrationTemperaturea7) Calibration Temperature
+9141 -2341 (calibrationTemperatureb7) Calibration Temperature
+9142 -1119 (calibrationTemperaturec7) Calibration Temperature
+9143 96 (calibrationTemperatured7) Calibration Temperature
+9144 1386 (calibrationTemperaturee7) Calibration Temperature
+9145 2572 (calibrationTemperaturef7) Calibration Temperature
+9146 3642 (calibrationTemperatureg7) Calibration Temperature
+9147 5234 (calibrationTemperatureh7) Calibration Temperature
+9148 7426 (calibrationTemperaturei7) Calibration Temperature
+9149 9551 (calibrationTemperaturej7) Calibration Temperature
+9150 -1638 (calibrationValuea7) Calibration Value
+9151 -1718 (calibrationValueb7) Calibration Value
+9152 -1724 (calibrationValuec7) Calibration Value
+9153 -1734 (calibrationValued7) Calibration Value
+9154 -1734 (calibrationValuee7) Calibration Value
+9155 -1761 (calibrationValuef7) Calibration Value
+9156 -1809 (calibrationValueg7) Calibration Value
+9157 -1906 (calibrationValueh7) Calibration Value
+9158 -2133 (calibrationValuei7) Calibration Value
+9159 -2518 (calibrationValuej7) Calibration Value
+9160 -3347 (calibrationTemperaturea8) Calibration Temperature
+9161 -2274 (calibrationTemperatureb8) Calibration Temperature
+9162 -1054 (calibrationTemperaturec8) Calibration Temperature
+9163 146 (calibrationTemperatured8) Calibration Temperature
+9164 1451 (calibrationTemperaturee8) Calibration Temperature
+9165 2622 (calibrationTemperaturef8) Calibration Temperature
+9166 3672 (calibrationTemperatureg8) Calibration Temperature
+9167 5290 (calibrationTemperatureh8) Calibration Temperature
+9168 7489 (calibrationTemperaturei8) Calibration Temperature
+9169 9543 (calibrationTemperaturej8) Calibration Temperature
+9170 -148029 (calibrationValuea8) Calibration Value
+9171 -148150 (calibrationValueb8) Calibration Value
+9172 -148228 (calibrationValuec8) Calibration Value
+9173 -148309 (calibrationValued8) Calibration Value
+9174 -148388 (calibrationValuee8) Calibration Value
+9175 -148478 (calibrationValuef8) Calibration Value
+9176 -148584 (calibrationValueg8) Calibration Value
+9177 -148767 (calibrationValueh8) Calibration Value
+9178 -149132 (calibrationValuei8) Calibration Value
+9179 -149613 (calibrationValuej8) Calibration Value
 9180 0 (calibrationTemperaturea9) Calibration Temperature
 9181 0 (calibrationTemperatureb9) Calibration Temperature
 9182 0 (calibrationTemperaturec9) Calibration Temperature
@@ -5479,7 +5479,7 @@
 9187 0 (calibrationTemperatureh9) Calibration Temperature
 9188 0 (calibrationTemperaturei9) Calibration Temperature
 9189 0 (calibrationTemperaturej9) Calibration Temperature
-9190 14885 (calibrationValuea9) Calibration Value
+9190 2200 (calibrationValuea9) Calibration Value
 9191 0 (calibrationValueb9) Calibration Value
 9192 0 (calibrationValuec9) Calibration Value
 9193 0 (calibrationValued9) Calibration Value
@@ -5489,86 +5489,86 @@
 9197 0 (calibrationValueh9) Calibration Value
 9198 0 (calibrationValuei9) Calibration Value
 9199 0 (calibrationValuej9) Calibration Value
-9200 -4356 (calibrationTemperaturea10) Calibration Temperature
-9201 -2341 (calibrationTemperatureb10) Calibration Temperature
-9202 -1181 (calibrationTemperaturec10) Calibration Temperature
-9203 166 (calibrationTemperatured10) Calibration Temperature
-9204 1409 (calibrationTemperaturee10) Calibration Temperature
-9205 2532 (calibrationTemperaturef10) Calibration Temperature
-9206 3753 (calibrationTemperatureg10) Calibration Temperature
-9207 5540 (calibrationTemperatureh10) Calibration Temperature
-9208 7908 (calibrationTemperaturei10) Calibration Temperature
-9209 10233 (calibrationTemperaturej10) Calibration Temperature
-9210 292976 (calibrationValuea10) Calibration Value
-9211 293427 (calibrationValueb10) Calibration Value
-9212 293641 (calibrationValuec10) Calibration Value
-9213 293890 (calibrationValued10) Calibration Value
-9214 294077 (calibrationValuee10) Calibration Value
-9215 294249 (calibrationValuef10) Calibration Value
-9216 294419 (calibrationValueg10) Calibration Value
-9217 294688 (calibrationValueh10) Calibration Value
-9218 295081 (calibrationValuei10) Calibration Value
-9219 295402 (calibrationValuej10) Calibration Value
-9220 -4336 (calibrationTemperaturea11) Calibration Temperature
-9221 -2323 (calibrationTemperatureb11) Calibration Temperature
-9222 -1138 (calibrationTemperaturec11) Calibration Temperature
-9223 187 (calibrationTemperatured11) Calibration Temperature
-9224 1426 (calibrationTemperaturee11) Calibration Temperature
-9225 2529 (calibrationTemperaturef11) Calibration Temperature
-9226 3748 (calibrationTemperatureg11) Calibration Temperature
-9227 5534 (calibrationTemperatureh11) Calibration Temperature
-9228 7883 (calibrationTemperaturei11) Calibration Temperature
-9229 10206 (calibrationTemperaturej11) Calibration Temperature
-9230 283851 (calibrationValuea11) Calibration Value
-9231 284292 (calibrationValueb11) Calibration Value
-9232 284507 (calibrationValuec11) Calibration Value
-9233 284745 (calibrationValued11) Calibration Value
-9234 284940 (calibrationValuee11) Calibration Value
-9235 285102 (calibrationValuef11) Calibration Value
-9236 285278 (calibrationValueg11) Calibration Value
-9237 285530 (calibrationValueh11) Calibration Value
-9238 285879 (calibrationValuei11) Calibration Value
-9239 286191 (calibrationValuej11) Calibration Value
-9240 -4290 (calibrationTemperaturea12) Calibration Temperature
-9241 -2338 (calibrationTemperatureb12) Calibration Temperature
-9242 -1143 (calibrationTemperaturec12) Calibration Temperature
-9243 194 (calibrationTemperatured12) Calibration Temperature
-9244 1434 (calibrationTemperaturee12) Calibration Temperature
-9245 2517 (calibrationTemperaturef12) Calibration Temperature
-9246 3724 (calibrationTemperatureg12) Calibration Temperature
-9247 5509 (calibrationTemperatureh12) Calibration Temperature
-9248 7860 (calibrationTemperaturei12) Calibration Temperature
-9249 10164 (calibrationTemperaturej12) Calibration Temperature
-9250 261607 (calibrationValuea12) Calibration Value
-9251 262063 (calibrationValueb12) Calibration Value
-9252 262335 (calibrationValuec12) Calibration Value
-9253 262587 (calibrationValued12) Calibration Value
-9254 262780 (calibrationValuee12) Calibration Value
-9255 262944 (calibrationValuef12) Calibration Value
-9256 263099 (calibrationValueg12) Calibration Value
-9257 263359 (calibrationValueh12) Calibration Value
-9258 263693 (calibrationValuei12) Calibration Value
-9259 264015 (calibrationValuej12) Calibration Value
-9260 -4325 (calibrationTemperaturea13) Calibration Temperature
-9261 -2365 (calibrationTemperatureb13) Calibration Temperature
-9262 -1191 (calibrationTemperaturec13) Calibration Temperature
-9263 130 (calibrationTemperatured13) Calibration Temperature
-9264 1402 (calibrationTemperaturee13) Calibration Temperature
-9265 2541 (calibrationTemperaturef13) Calibration Temperature
-9266 3765 (calibrationTemperatureg13) Calibration Temperature
-9267 5557 (calibrationTemperatureh13) Calibration Temperature
-9268 7926 (calibrationTemperaturei13) Calibration Temperature
-9269 10256 (calibrationTemperaturej13) Calibration Temperature
-9270 239450 (calibrationValuea13) Calibration Value
-9271 239849 (calibrationValueb13) Calibration Value
-9272 240069 (calibrationValuec13) Calibration Value
-9273 240313 (calibrationValued13) Calibration Value
-9274 240506 (calibrationValuee13) Calibration Value
-9275 240660 (calibrationValuef13) Calibration Value
-9276 240826 (calibrationValueg13) Calibration Value
-9277 241077 (calibrationValueh13) Calibration Value
-9278 241425 (calibrationValuei13) Calibration Value
-9279 241746 (calibrationValuej13) Calibration Value
+9200 -3980 (calibrationTemperaturea10) Calibration Temperature
+9201 -2245 (calibrationTemperatureb10) Calibration Temperature
+9202 -1007 (calibrationTemperaturec10) Calibration Temperature
+9203 260 (calibrationTemperatured10) Calibration Temperature
+9204 1536 (calibrationTemperaturee10) Calibration Temperature
+9205 2713 (calibrationTemperaturef10) Calibration Temperature
+9206 3775 (calibrationTemperatureg10) Calibration Temperature
+9207 5500 (calibrationTemperatureh10) Calibration Temperature
+9208 7828 (calibrationTemperaturei10) Calibration Temperature
+9209 10031 (calibrationTemperaturej10) Calibration Temperature
+9210 212108 (calibrationValuea10) Calibration Value
+9211 211457 (calibrationValueb10) Calibration Value
+9212 211169 (calibrationValuec10) Calibration Value
+9213 210893 (calibrationValued10) Calibration Value
+9214 210678 (calibrationValuee10) Calibration Value
+9215 210443 (calibrationValuef10) Calibration Value
+9216 210185 (calibrationValueg10) Calibration Value
+9217 209770 (calibrationValueh10) Calibration Value
+9218 209159 (calibrationValuei10) Calibration Value
+9219 208462 (calibrationValuej10) Calibration Value
+9220 -3999 (calibrationTemperaturea11) Calibration Temperature
+9221 -2234 (calibrationTemperatureb11) Calibration Temperature
+9222 -1002 (calibrationTemperaturec11) Calibration Temperature
+9223 261 (calibrationTemperatured11) Calibration Temperature
+9224 1542 (calibrationTemperaturee11) Calibration Temperature
+9225 2713 (calibrationTemperaturef11) Calibration Temperature
+9226 3773 (calibrationTemperatureg11) Calibration Temperature
+9227 5491 (calibrationTemperatureh11) Calibration Temperature
+9228 7805 (calibrationTemperaturei11) Calibration Temperature
+9229 10004 (calibrationTemperaturej11) Calibration Temperature
+9230 153231 (calibrationValuea11) Calibration Value
+9231 152530 (calibrationValueb11) Calibration Value
+9232 152204 (calibrationValuec11) Calibration Value
+9233 151894 (calibrationValued11) Calibration Value
+9234 151642 (calibrationValuee11) Calibration Value
+9235 151389 (calibrationValuef11) Calibration Value
+9236 151118 (calibrationValueg11) Calibration Value
+9237 150665 (calibrationValueh11) Calibration Value
+9238 150017 (calibrationValuei11) Calibration Value
+9239 149322 (calibrationValuej11) Calibration Value
+9240 -4025 (calibrationTemperaturea12) Calibration Temperature
+9241 -2230 (calibrationTemperatureb12) Calibration Temperature
+9242 -1022 (calibrationTemperaturec12) Calibration Temperature
+9243 241 (calibrationTemperatured12) Calibration Temperature
+9244 1528 (calibrationTemperaturee12) Calibration Temperature
+9245 2693 (calibrationTemperaturef12) Calibration Temperature
+9246 3757 (calibrationTemperatureg12) Calibration Temperature
+9247 5468 (calibrationTemperatureh12) Calibration Temperature
+9248 7772 (calibrationTemperaturei12) Calibration Temperature
+9249 9976 (calibrationTemperaturej12) Calibration Temperature
+9250 10362 (calibrationValuea12) Calibration Value
+9251 9510 (calibrationValueb12) Calibration Value
+9252 9112 (calibrationValuec12) Calibration Value
+9253 8763 (calibrationValued12) Calibration Value
+9254 8460 (calibrationValuee12) Calibration Value
+9255 8184 (calibrationValuef12) Calibration Value
+9256 7881 (calibrationValueg12) Calibration Value
+9257 7420 (calibrationValueh12) Calibration Value
+9258 6747 (calibrationValuei12) Calibration Value
+9259 6058 (calibrationValuej12) Calibration Value
+9260 -4238 (calibrationTemperaturea13) Calibration Temperature
+9261 -2269 (calibrationTemperatureb13) Calibration Temperature
+9262 -1025 (calibrationTemperaturec13) Calibration Temperature
+9263 256 (calibrationTemperatured13) Calibration Temperature
+9264 1528 (calibrationTemperaturee13) Calibration Temperature
+9265 2716 (calibrationTemperaturef13) Calibration Temperature
+9266 3786 (calibrationTemperatureg13) Calibration Temperature
+9267 5514 (calibrationTemperatureh13) Calibration Temperature
+9268 7843 (calibrationTemperaturei13) Calibration Temperature
+9269 10052 (calibrationTemperaturej13) Calibration Temperature
+9270 -132808 (calibrationValuea13) Calibration Value
+9271 -133774 (calibrationValueb13) Calibration Value
+9272 -134239 (calibrationValuec13) Calibration Value
+9273 -134626 (calibrationValued13) Calibration Value
+9274 -134945 (calibrationValuee13) Calibration Value
+9275 -135271 (calibrationValuef13) Calibration Value
+9276 -135593 (calibrationValueg13) Calibration Value
+9277 -136082 (calibrationValueh13) Calibration Value
+9278 -136779 (calibrationValuei13) Calibration Value
+9279 -137513 (calibrationValuej13) Calibration Value
 9280 0 (calibrationTemperaturea14) Calibration Temperature
 9281 0 (calibrationTemperatureb14) Calibration Temperature
 9282 0 (calibrationTemperaturec14) Calibration Temperature
@@ -5579,7 +5579,7 @@
 9287 0 (calibrationTemperatureh14) Calibration Temperature
 9288 0 (calibrationTemperaturei14) Calibration Temperature
 9289 0 (calibrationTemperaturej14) Calibration Temperature
-9290 14551 (calibrationValuea14) Calibration Value
+9290 2255 (calibrationValuea14) Calibration Value
 9291 0 (calibrationValueb14) Calibration Value
 9292 0 (calibrationValuec14) Calibration Value
 9293 0 (calibrationValued14) Calibration Value
@@ -5589,186 +5589,186 @@
 9297 0 (calibrationValueh14) Calibration Value
 9298 0 (calibrationValuei14) Calibration Value
 9299 0 (calibrationValuej14) Calibration Value
-9300 110989 (calibrationTemperaturea15) Calibration Temperature
-9301 118818 (calibrationTemperatureb15) Calibration Temperature
-9302 123748 (calibrationTemperaturec15) Calibration Temperature
-9303 128578 (calibrationTemperatured15) Calibration Temperature
-9304 133643 (calibrationTemperaturee15) Calibration Temperature
-9305 138245 (calibrationTemperaturef15) Calibration Temperature
-9306 142829 (calibrationTemperatureg15) Calibration Temperature
-9307 149499 (calibrationTemperatureh15) Calibration Temperature
-9308 157885 (calibrationTemperaturei15) Calibration Temperature
-9309 165572 (calibrationTemperaturej15) Calibration Temperature
-9310 4013 (calibrationValuea15) Calibration Value
-9311 4069 (calibrationValueb15) Calibration Value
-9312 4099 (calibrationValuec15) Calibration Value
-9313 4141 (calibrationValued15) Calibration Value
-9314 4192 (calibrationValuee15) Calibration Value
-9315 4234 (calibrationValuef15) Calibration Value
-9316 4283 (calibrationValueg15) Calibration Value
-9317 4354 (calibrationValueh15) Calibration Value
-9318 4444 (calibrationValuei15) Calibration Value
-9319 4339 (calibrationValuej15) Calibration Value
-9320 110398 (calibrationTemperaturea16) Calibration Temperature
-9321 117988 (calibrationTemperatureb16) Calibration Temperature
-9322 122990 (calibrationTemperaturec16) Calibration Temperature
-9323 127938 (calibrationTemperatured16) Calibration Temperature
-9324 133153 (calibrationTemperaturee16) Calibration Temperature
-9325 137915 (calibrationTemperaturef16) Calibration Temperature
-9326 142631 (calibrationTemperatureg16) Calibration Temperature
-9327 149394 (calibrationTemperatureh16) Calibration Temperature
-9328 157956 (calibrationTemperaturei16) Calibration Temperature
-9329 165815 (calibrationTemperaturej16) Calibration Temperature
-9330 4673 (calibrationValuea16) Calibration Value
-9331 4083 (calibrationValueb16) Calibration Value
-9332 3632 (calibrationValuec16) Calibration Value
-9333 3207 (calibrationValued16) Calibration Value
-9334 2597 (calibrationValuee16) Calibration Value
-9335 2097 (calibrationValuef16) Calibration Value
-9336 1521 (calibrationValueg16) Calibration Value
-9337 748 (calibrationValueh16) Calibration Value
-9338 -258 (calibrationValuei16) Calibration Value
-9339 -1204 (calibrationValuej16) Calibration Value
-9340 110398 (calibrationTemperaturea17) Calibration Temperature
-9341 118716 (calibrationTemperatureb17) Calibration Temperature
-9342 123562 (calibrationTemperaturec17) Calibration Temperature
-9343 128419 (calibrationTemperatured17) Calibration Temperature
-9344 133513 (calibrationTemperaturee17) Calibration Temperature
-9345 138216 (calibrationTemperaturef17) Calibration Temperature
-9346 142765 (calibrationTemperatureg17) Calibration Temperature
-9347 149475 (calibrationTemperatureh17) Calibration Temperature
-9348 157945 (calibrationTemperaturei17) Calibration Temperature
-9349 165631 (calibrationTemperaturej17) Calibration Temperature
-9350 4012 (calibrationValuea17) Calibration Value
-9351 4068 (calibrationValueb17) Calibration Value
-9352 4099 (calibrationValuec17) Calibration Value
-9353 4139 (calibrationValued17) Calibration Value
-9354 4190 (calibrationValuee17) Calibration Value
-9355 4235 (calibrationValuef17) Calibration Value
-9356 4283 (calibrationValueg17) Calibration Value
-9357 4355 (calibrationValueh17) Calibration Value
-9358 4444 (calibrationValuei17) Calibration Value
-9359 4338 (calibrationValuej17) Calibration Value
-9360 112683 (calibrationTemperaturea18) Calibration Temperature
-9361 120025 (calibrationTemperatureb18) Calibration Temperature
-9362 124997 (calibrationTemperaturec18) Calibration Temperature
-9363 129854 (calibrationTemperatured18) Calibration Temperature
-9364 134962 (calibrationTemperaturee18) Calibration Temperature
-9365 139640 (calibrationTemperaturef18) Calibration Temperature
-9366 144277 (calibrationTemperatureg18) Calibration Temperature
-9367 150910 (calibrationTemperatureh18) Calibration Temperature
-9368 159272 (calibrationTemperaturei18) Calibration Temperature
-9369 166923 (calibrationTemperaturej18) Calibration Temperature
-9370 4186 (calibrationValuea18) Calibration Value
-9371 4180 (calibrationValueb18) Calibration Value
-9372 4195 (calibrationValuec18) Calibration Value
-9373 4209 (calibrationValued18) Calibration Value
-9374 4227 (calibrationValuee18) Calibration Value
-9375 4244 (calibrationValuef18) Calibration Value
-9376 4268 (calibrationValueg18) Calibration Value
-9377 4313 (calibrationValueh18) Calibration Value
-9378 4377 (calibrationValuei18) Calibration Value
-9379 4299 (calibrationValuej18) Calibration Value
-9380 111607 (calibrationTemperaturea19) Calibration Temperature
-9381 119312 (calibrationTemperatureb19) Calibration Temperature
-9382 124375 (calibrationTemperaturec19) Calibration Temperature
-9383 129321 (calibrationTemperatured19) Calibration Temperature
-9384 134554 (calibrationTemperaturee19) Calibration Temperature
-9385 139342 (calibrationTemperaturef19) Calibration Temperature
-9386 144050 (calibrationTemperatureg19) Calibration Temperature
-9387 150809 (calibrationTemperatureh19) Calibration Temperature
-9388 159339 (calibrationTemperaturei19) Calibration Temperature
-9389 167234 (calibrationTemperaturej19) Calibration Temperature
-9390 7238 (calibrationValuea19) Calibration Value
-9391 5753 (calibrationValueb19) Calibration Value
-9392 4782 (calibrationValuec19) Calibration Value
-9393 3893 (calibrationValued19) Calibration Value
-9394 2922 (calibrationValuee19) Calibration Value
-9395 2060 (calibrationValuef19) Calibration Value
-9396 1231 (calibrationValueg19) Calibration Value
-9397 -8 (calibrationValueh19) Calibration Value
-9398 -1276 (calibrationValuei19) Calibration Value
-9399 -2544 (calibrationValuej19) Calibration Value
-9400 112605 (calibrationTemperaturea20) Calibration Temperature
-9401 120008 (calibrationTemperatureb20) Calibration Temperature
-9402 125029 (calibrationTemperaturec20) Calibration Temperature
-9403 129861 (calibrationTemperatured20) Calibration Temperature
-9404 134974 (calibrationTemperaturee20) Calibration Temperature
-9405 139662 (calibrationTemperaturef20) Calibration Temperature
-9406 144309 (calibrationTemperatureg20) Calibration Temperature
-9407 150930 (calibrationTemperatureh20) Calibration Temperature
-9408 159266 (calibrationTemperaturei20) Calibration Temperature
-9409 166910 (calibrationTemperaturej20) Calibration Temperature
-9410 4181 (calibrationValuea20) Calibration Value
-9411 4180 (calibrationValueb20) Calibration Value
-9412 4193 (calibrationValuec20) Calibration Value
-9413 4206 (calibrationValued20) Calibration Value
-9414 4228 (calibrationValuee20) Calibration Value
-9415 4242 (calibrationValuef20) Calibration Value
-9416 4266 (calibrationValueg20) Calibration Value
-9417 4314 (calibrationValueh20) Calibration Value
-9418 4375 (calibrationValuei20) Calibration Value
-9419 4296 (calibrationValuej20) Calibration Value
-9420 111407 (calibrationTemperaturea21) Calibration Temperature
-9421 119212 (calibrationTemperatureb21) Calibration Temperature
-9422 123918 (calibrationTemperaturec21) Calibration Temperature
-9423 128753 (calibrationTemperatured21) Calibration Temperature
-9424 133765 (calibrationTemperaturee21) Calibration Temperature
-9425 138371 (calibrationTemperaturef21) Calibration Temperature
-9426 142868 (calibrationTemperatureg21) Calibration Temperature
-9427 149454 (calibrationTemperatureh21) Calibration Temperature
-9428 157716 (calibrationTemperaturei21) Calibration Temperature
-9429 165284 (calibrationTemperaturej21) Calibration Temperature
-9430 3996 (calibrationValuea21) Calibration Value
-9431 4027 (calibrationValueb21) Calibration Value
-9432 4051 (calibrationValuec21) Calibration Value
-9433 4070 (calibrationValued21) Calibration Value
-9434 4097 (calibrationValuee21) Calibration Value
-9435 4136 (calibrationValuef21) Calibration Value
-9436 4164 (calibrationValueg21) Calibration Value
-9437 4225 (calibrationValueh21) Calibration Value
-9438 4311 (calibrationValuei21) Calibration Value
-9439 4213 (calibrationValuej21) Calibration Value
-9440 111121 (calibrationTemperaturea22) Calibration Temperature
-9441 118237 (calibrationTemperatureb22) Calibration Temperature
-9442 123151 (calibrationTemperaturec22) Calibration Temperature
-9443 128092 (calibrationTemperatured22) Calibration Temperature
-9444 133232 (calibrationTemperaturee22) Calibration Temperature
-9445 137894 (calibrationTemperaturef22) Calibration Temperature
-9446 142556 (calibrationTemperatureg22) Calibration Temperature
-9447 149222 (calibrationTemperatureh22) Calibration Temperature
-9448 157660 (calibrationTemperaturei22) Calibration Temperature
-9449 165400 (calibrationTemperaturej22) Calibration Temperature
-9450 12152 (calibrationValuea22) Calibration Value
-9451 11388 (calibrationValueb22) Calibration Value
-9452 10851 (calibrationValuec22) Calibration Value
-9453 10236 (calibrationValued22) Calibration Value
-9454 9491 (calibrationValuee22) Calibration Value
-9455 8793 (calibrationValuef22) Calibration Value
-9456 8073 (calibrationValueg22) Calibration Value
-9457 7018 (calibrationValueh22) Calibration Value
-9458 5724 (calibrationValuei22) Calibration Value
-9459 4427 (calibrationValuej22) Calibration Value
-9460 111141 (calibrationTemperaturea23) Calibration Temperature
-9461 119092 (calibrationTemperatureb23) Calibration Temperature
-9462 123919 (calibrationTemperaturec23) Calibration Temperature
-9463 128662 (calibrationTemperatured23) Calibration Temperature
-9464 133733 (calibrationTemperaturee23) Calibration Temperature
-9465 138338 (calibrationTemperaturef23) Calibration Temperature
-9466 142831 (calibrationTemperatureg23) Calibration Temperature
-9467 149470 (calibrationTemperatureh23) Calibration Temperature
-9468 157785 (calibrationTemperaturei23) Calibration Temperature
-9469 165384 (calibrationTemperaturej23) Calibration Temperature
-9470 3996 (calibrationValuea23) Calibration Value
-9471 4024 (calibrationValueb23) Calibration Value
-9472 4048 (calibrationValuec23) Calibration Value
-9473 4068 (calibrationValued23) Calibration Value
-9474 4095 (calibrationValuee23) Calibration Value
-9475 4133 (calibrationValuef23) Calibration Value
-9476 4164 (calibrationValueg23) Calibration Value
-9477 4223 (calibrationValueh23) Calibration Value
-9478 4311 (calibrationValuei23) Calibration Value
-9479 4215 (calibrationValuej23) Calibration Value
+9300 110301 (calibrationTemperaturea15) Calibration Temperature
+9301 119400 (calibrationTemperatureb15) Calibration Temperature
+9302 124424 (calibrationTemperaturec15) Calibration Temperature
+9303 129448 (calibrationTemperatured15) Calibration Temperature
+9304 134695 (calibrationTemperaturee15) Calibration Temperature
+9305 140089 (calibrationTemperaturef15) Calibration Temperature
+9306 144617 (calibrationTemperatureg15) Calibration Temperature
+9307 151457 (calibrationTemperatureh15) Calibration Temperature
+9308 160200 (calibrationTemperaturei15) Calibration Temperature
+9309 168144 (calibrationTemperaturej15) Calibration Temperature
+9310 3991 (calibrationValuea15) Calibration Value
+9311 4019 (calibrationValueb15) Calibration Value
+9312 4056 (calibrationValuec15) Calibration Value
+9313 4081 (calibrationValued15) Calibration Value
+9314 4128 (calibrationValuee15) Calibration Value
+9315 4174 (calibrationValuef15) Calibration Value
+9316 4218 (calibrationValueg15) Calibration Value
+9317 4290 (calibrationValueh15) Calibration Value
+9318 4379 (calibrationValuei15) Calibration Value
+9319 4276 (calibrationValuej15) Calibration Value
+9320 110949 (calibrationTemperaturea16) Calibration Temperature
+9321 118917 (calibrationTemperatureb16) Calibration Temperature
+9322 124241 (calibrationTemperaturec16) Calibration Temperature
+9323 129715 (calibrationTemperatured16) Calibration Temperature
+9324 134907 (calibrationTemperaturee16) Calibration Temperature
+9325 139948 (calibrationTemperaturef16) Calibration Temperature
+9326 144269 (calibrationTemperatureg16) Calibration Temperature
+9327 151126 (calibrationTemperatureh16) Calibration Temperature
+9328 159849 (calibrationTemperaturei16) Calibration Temperature
+9329 167845 (calibrationTemperaturej16) Calibration Temperature
+9330 -11466 (calibrationValuea16) Calibration Value
+9331 -8994 (calibrationValueb16) Calibration Value
+9332 -7273 (calibrationValuec16) Calibration Value
+9333 -5659 (calibrationValued16) Calibration Value
+9334 -4122 (calibrationValuee16) Calibration Value
+9335 -2680 (calibrationValuef16) Calibration Value
+9336 -1408 (calibrationValueg16) Calibration Value
+9337 523 (calibrationValueh16) Calibration Value
+9338 2897 (calibrationValuei16) Calibration Value
+9339 4945 (calibrationValuej16) Calibration Value
+9340 108490 (calibrationTemperaturea17) Calibration Temperature
+9341 118941 (calibrationTemperatureb17) Calibration Temperature
+9342 124398 (calibrationTemperaturec17) Calibration Temperature
+9343 129324 (calibrationTemperatured17) Calibration Temperature
+9344 134543 (calibrationTemperaturee17) Calibration Temperature
+9345 139976 (calibrationTemperaturef17) Calibration Temperature
+9346 144595 (calibrationTemperatureg17) Calibration Temperature
+9347 151530 (calibrationTemperatureh17) Calibration Temperature
+9348 160272 (calibrationTemperaturei17) Calibration Temperature
+9349 168280 (calibrationTemperaturej17) Calibration Temperature
+9350 3959 (calibrationValuea17) Calibration Value
+9351 4011 (calibrationValueb17) Calibration Value
+9352 4053 (calibrationValuec17) Calibration Value
+9353 4076 (calibrationValued17) Calibration Value
+9354 4123 (calibrationValuee17) Calibration Value
+9355 4170 (calibrationValuef17) Calibration Value
+9356 4215 (calibrationValueg17) Calibration Value
+9357 4292 (calibrationValueh17) Calibration Value
+9358 4385 (calibrationValuei17) Calibration Value
+9359 4288 (calibrationValuej17) Calibration Value
+9360 112311 (calibrationTemperaturea18) Calibration Temperature
+9361 119557 (calibrationTemperatureb18) Calibration Temperature
+9362 124896 (calibrationTemperaturec18) Calibration Temperature
+9363 130104 (calibrationTemperatured18) Calibration Temperature
+9364 135352 (calibrationTemperaturee18) Calibration Temperature
+9365 140347 (calibrationTemperaturef18) Calibration Temperature
+9366 144775 (calibrationTemperatureg18) Calibration Temperature
+9367 151412 (calibrationTemperatureh18) Calibration Temperature
+9368 159991 (calibrationTemperaturei18) Calibration Temperature
+9369 167896 (calibrationTemperaturej18) Calibration Temperature
+9370 4224 (calibrationValuea18) Calibration Value
+9371 4176 (calibrationValueb18) Calibration Value
+9372 4152 (calibrationValuec18) Calibration Value
+9373 4144 (calibrationValued18) Calibration Value
+9374 4135 (calibrationValuee18) Calibration Value
+9375 4152 (calibrationValuef18) Calibration Value
+9376 4151 (calibrationValueg18) Calibration Value
+9377 4176 (calibrationValueh18) Calibration Value
+9378 4227 (calibrationValuei18) Calibration Value
+9379 4203 (calibrationValuej18) Calibration Value
+9380 111131 (calibrationTemperaturea19) Calibration Temperature
+9381 119201 (calibrationTemperatureb19) Calibration Temperature
+9382 124559 (calibrationTemperaturec19) Calibration Temperature
+9383 130014 (calibrationTemperatured19) Calibration Temperature
+9384 135233 (calibrationTemperaturee19) Calibration Temperature
+9385 140236 (calibrationTemperaturef19) Calibration Temperature
+9386 144591 (calibrationTemperatureg19) Calibration Temperature
+9387 151427 (calibrationTemperatureh19) Calibration Temperature
+9388 160173 (calibrationTemperaturei19) Calibration Temperature
+9389 168237 (calibrationTemperaturej19) Calibration Temperature
+9390 -25075 (calibrationValuea19) Calibration Value
+9391 -21010 (calibrationValueb19) Calibration Value
+9392 -18314 (calibrationValuec19) Calibration Value
+9393 -15716 (calibrationValued19) Calibration Value
+9394 -13344 (calibrationValuee19) Calibration Value
+9395 -11088 (calibrationValuef19) Calibration Value
+9396 -9230 (calibrationValueg19) Calibration Value
+9397 -6411 (calibrationValueh19) Calibration Value
+9398 -3125 (calibrationValuei19) Calibration Value
+9399 -408 (calibrationValuej19) Calibration Value
+9400 111018 (calibrationTemperaturea20) Calibration Temperature
+9401 119582 (calibrationTemperatureb20) Calibration Temperature
+9402 124710 (calibrationTemperaturec20) Calibration Temperature
+9403 129894 (calibrationTemperatured20) Calibration Temperature
+9404 135135 (calibrationTemperaturee20) Calibration Temperature
+9405 140367 (calibrationTemperaturef20) Calibration Temperature
+9406 144768 (calibrationTemperatureg20) Calibration Temperature
+9407 151407 (calibrationTemperatureh20) Calibration Temperature
+9408 160000 (calibrationTemperaturei20) Calibration Temperature
+9409 167906 (calibrationTemperaturej20) Calibration Temperature
+9410 4254 (calibrationValuea20) Calibration Value
+9411 4174 (calibrationValueb20) Calibration Value
+9412 4158 (calibrationValuec20) Calibration Value
+9413 4154 (calibrationValued20) Calibration Value
+9414 4143 (calibrationValuee20) Calibration Value
+9415 4151 (calibrationValuef20) Calibration Value
+9416 4149 (calibrationValueg20) Calibration Value
+9417 4175 (calibrationValueh20) Calibration Value
+9418 4232 (calibrationValuei20) Calibration Value
+9419 4207 (calibrationValuej20) Calibration Value
+9420 110722 (calibrationTemperaturea21) Calibration Temperature
+9421 119711 (calibrationTemperatureb21) Calibration Temperature
+9422 125247 (calibrationTemperaturec21) Calibration Temperature
+9423 129968 (calibrationTemperatured21) Calibration Temperature
+9424 135188 (calibrationTemperaturee21) Calibration Temperature
+9425 140459 (calibrationTemperaturef21) Calibration Temperature
+9426 145081 (calibrationTemperatureg21) Calibration Temperature
+9427 151809 (calibrationTemperatureh21) Calibration Temperature
+9428 160354 (calibrationTemperaturei21) Calibration Temperature
+9429 168156 (calibrationTemperaturej21) Calibration Temperature
+9430 4216 (calibrationValuea21) Calibration Value
+9431 4253 (calibrationValueb21) Calibration Value
+9432 4277 (calibrationValuec21) Calibration Value
+9433 4290 (calibrationValued21) Calibration Value
+9434 4324 (calibrationValuee21) Calibration Value
+9435 4355 (calibrationValuef21) Calibration Value
+9436 4385 (calibrationValueg21) Calibration Value
+9437 4437 (calibrationValueh21) Calibration Value
+9438 4507 (calibrationValuei21) Calibration Value
+9439 4438 (calibrationValuej21) Calibration Value
+9440 111807 (calibrationTemperaturea22) Calibration Temperature
+9441 119476 (calibrationTemperatureb22) Calibration Temperature
+9442 124825 (calibrationTemperaturec22) Calibration Temperature
+9443 130225 (calibrationTemperatured22) Calibration Temperature
+9444 135417 (calibrationTemperaturee22) Calibration Temperature
+9445 140341 (calibrationTemperaturef22) Calibration Temperature
+9446 144642 (calibrationTemperatureg22) Calibration Temperature
+9447 151314 (calibrationTemperatureh22) Calibration Temperature
+9448 159871 (calibrationTemperaturei22) Calibration Temperature
+9449 167638 (calibrationTemperaturej22) Calibration Temperature
+9450 -14482 (calibrationValuea22) Calibration Value
+9451 -12967 (calibrationValueb22) Calibration Value
+9452 -12013 (calibrationValuec22) Calibration Value
+9453 -11077 (calibrationValued22) Calibration Value
+9454 -10288 (calibrationValuee22) Calibration Value
+9455 -9557 (calibrationValuef22) Calibration Value
+9456 -8940 (calibrationValueg22) Calibration Value
+9457 -7920 (calibrationValueh22) Calibration Value
+9458 -6757 (calibrationValuei22) Calibration Value
+9459 -5817 (calibrationValuej22) Calibration Value
+9460 111009 (calibrationTemperaturea23) Calibration Temperature
+9461 119625 (calibrationTemperatureb23) Calibration Temperature
+9462 125557 (calibrationTemperaturec23) Calibration Temperature
+9463 129936 (calibrationTemperatured23) Calibration Temperature
+9464 135176 (calibrationTemperaturee23) Calibration Temperature
+9465 140401 (calibrationTemperaturef23) Calibration Temperature
+9466 145052 (calibrationTemperatureg23) Calibration Temperature
+9467 151796 (calibrationTemperatureh23) Calibration Temperature
+9468 160349 (calibrationTemperaturei23) Calibration Temperature
+9469 168158 (calibrationTemperaturej23) Calibration Temperature
+9470 4228 (calibrationValuea23) Calibration Value
+9471 4255 (calibrationValueb23) Calibration Value
+9472 4282 (calibrationValuec23) Calibration Value
+9473 4292 (calibrationValued23) Calibration Value
+9474 4324 (calibrationValuee23) Calibration Value
+9475 4355 (calibrationValuef23) Calibration Value
+9476 4389 (calibrationValueg23) Calibration Value
+9477 4438 (calibrationValueh23) Calibration Value
+9478 4506 (calibrationValuei23) Calibration Value
+9479 4436 (calibrationValuej23) Calibration Value
 9480 0 (calibrationTemperaturea24) Calibration Temperature
 9481 0 (calibrationTemperatureb24) Calibration Temperature
 9482 0 (calibrationTemperaturec24) Calibration Temperature
@@ -5849,266 +5849,266 @@
 9557 0 (calibrationValueh27) Calibration Value
 9558 0 (calibrationValuei27) Calibration Value
 9559 0 (calibrationValuej27) Calibration Value
-9560 -2605 (calibrationTemperaturea28) Calibration Temperature
-9561 -1859 (calibrationTemperatureb28) Calibration Temperature
-9562 -672 (calibrationTemperaturec28) Calibration Temperature
-9563 553 (calibrationTemperatured28) Calibration Temperature
-9564 1745 (calibrationTemperaturee28) Calibration Temperature
-9565 2941 (calibrationTemperaturef28) Calibration Temperature
-9566 4173 (calibrationTemperatureg28) Calibration Temperature
-9567 5346 (calibrationTemperatureh28) Calibration Temperature
-9568 6574 (calibrationTemperaturei28) Calibration Temperature
-9569 8343 (calibrationTemperaturej28) Calibration Temperature
-9570 14198 (calibrationValuea28) Calibration Value
-9571 14188 (calibrationValueb28) Calibration Value
-9572 14176 (calibrationValuec28) Calibration Value
-9573 14171 (calibrationValued28) Calibration Value
-9574 14173 (calibrationValuee28) Calibration Value
-9575 14177 (calibrationValuef28) Calibration Value
-9576 14186 (calibrationValueg28) Calibration Value
-9577 14197 (calibrationValueh28) Calibration Value
-9578 14206 (calibrationValuei28) Calibration Value
-9579 14217 (calibrationValuej28) Calibration Value
-9580 -2605 (calibrationTemperaturea29) Calibration Temperature
-9581 -1859 (calibrationTemperatureb29) Calibration Temperature
-9582 -672 (calibrationTemperaturec29) Calibration Temperature
-9583 553 (calibrationTemperatured29) Calibration Temperature
-9584 1745 (calibrationTemperaturee29) Calibration Temperature
-9585 2941 (calibrationTemperaturef29) Calibration Temperature
-9586 4173 (calibrationTemperatureg29) Calibration Temperature
-9587 5346 (calibrationTemperatureh29) Calibration Temperature
-9588 6574 (calibrationTemperaturei29) Calibration Temperature
-9589 8343 (calibrationTemperaturej29) Calibration Temperature
-9590 13920 (calibrationValuea29) Calibration Value
-9591 13908 (calibrationValueb29) Calibration Value
-9592 13896 (calibrationValuec29) Calibration Value
-9593 13891 (calibrationValued29) Calibration Value
-9594 13892 (calibrationValuee29) Calibration Value
-9595 13896 (calibrationValuef29) Calibration Value
-9596 13905 (calibrationValueg29) Calibration Value
-9597 13914 (calibrationValueh29) Calibration Value
-9598 13924 (calibrationValuei29) Calibration Value
-9599 13933 (calibrationValuej29) Calibration Value
-9600 -2605 (calibrationTemperaturea30) Calibration Temperature
-9601 -1859 (calibrationTemperatureb30) Calibration Temperature
-9602 -672 (calibrationTemperaturec30) Calibration Temperature
-9603 553 (calibrationTemperatured30) Calibration Temperature
-9604 1745 (calibrationTemperaturee30) Calibration Temperature
-9605 2941 (calibrationTemperaturef30) Calibration Temperature
-9606 4173 (calibrationTemperatureg30) Calibration Temperature
-9607 5346 (calibrationTemperatureh30) Calibration Temperature
-9608 6574 (calibrationTemperaturei30) Calibration Temperature
-9609 8343 (calibrationTemperaturej30) Calibration Temperature
-9610 13645 (calibrationValuea30) Calibration Value
-9611 13632 (calibrationValueb30) Calibration Value
-9612 13620 (calibrationValuec30) Calibration Value
-9613 13616 (calibrationValued30) Calibration Value
-9614 13616 (calibrationValuee30) Calibration Value
-9615 13620 (calibrationValuef30) Calibration Value
-9616 13628 (calibrationValueg30) Calibration Value
-9617 13637 (calibrationValueh30) Calibration Value
-9618 13646 (calibrationValuei30) Calibration Value
-9619 13655 (calibrationValuej30) Calibration Value
-9620 -2605 (calibrationTemperaturea31) Calibration Temperature
-9621 -1859 (calibrationTemperatureb31) Calibration Temperature
-9622 -672 (calibrationTemperaturec31) Calibration Temperature
-9623 553 (calibrationTemperatured31) Calibration Temperature
-9624 1745 (calibrationTemperaturee31) Calibration Temperature
-9625 2941 (calibrationTemperaturef31) Calibration Temperature
-9626 4173 (calibrationTemperatureg31) Calibration Temperature
-9627 5346 (calibrationTemperatureh31) Calibration Temperature
-9628 6574 (calibrationTemperaturei31) Calibration Temperature
-9629 8343 (calibrationTemperaturej31) Calibration Temperature
-9630 13105 (calibrationValuea31) Calibration Value
-9631 13093 (calibrationValueb31) Calibration Value
-9632 13080 (calibrationValuec31) Calibration Value
-9633 13076 (calibrationValued31) Calibration Value
-9634 13076 (calibrationValuee31) Calibration Value
-9635 13080 (calibrationValuef31) Calibration Value
-9636 13087 (calibrationValueg31) Calibration Value
-9637 13095 (calibrationValueh31) Calibration Value
-9638 13104 (calibrationValuei31) Calibration Value
-9639 13111 (calibrationValuej31) Calibration Value
-9640 -2605 (calibrationTemperaturea32) Calibration Temperature
-9641 -1859 (calibrationTemperatureb32) Calibration Temperature
-9642 -672 (calibrationTemperaturec32) Calibration Temperature
-9643 553 (calibrationTemperatured32) Calibration Temperature
-9644 1745 (calibrationTemperaturee32) Calibration Temperature
-9645 2941 (calibrationTemperaturef32) Calibration Temperature
-9646 4173 (calibrationTemperatureg32) Calibration Temperature
-9647 5346 (calibrationTemperatureh32) Calibration Temperature
-9648 6574 (calibrationTemperaturei32) Calibration Temperature
-9649 8343 (calibrationTemperaturej32) Calibration Temperature
-9650 5743 (calibrationValuea32) Calibration Value
-9651 5739 (calibrationValueb32) Calibration Value
-9652 5734 (calibrationValuec32) Calibration Value
-9653 5731 (calibrationValued32) Calibration Value
-9654 5730 (calibrationValuee32) Calibration Value
-9655 5729 (calibrationValuef32) Calibration Value
-9656 5730 (calibrationValueg32) Calibration Value
-9657 5731 (calibrationValueh32) Calibration Value
-9658 5728 (calibrationValuei32) Calibration Value
-9659 5722 (calibrationValuej32) Calibration Value
-9660 -2622 (calibrationTemperaturea33) Calibration Temperature
-9661 -1788 (calibrationTemperatureb33) Calibration Temperature
-9662 -586 (calibrationTemperaturec33) Calibration Temperature
-9663 631 (calibrationTemperatured33) Calibration Temperature
-9664 1874 (calibrationTemperaturee33) Calibration Temperature
-9665 3063 (calibrationTemperaturef33) Calibration Temperature
-9666 4221 (calibrationTemperatureg33) Calibration Temperature
-9667 5485 (calibrationTemperatureh33) Calibration Temperature
-9668 6667 (calibrationTemperaturei33) Calibration Temperature
-9669 8504 (calibrationTemperaturej33) Calibration Temperature
-9670 1100919 (calibrationValuea33) Calibration Value
-9671 1099855 (calibrationValueb33) Calibration Value
-9672 1098634 (calibrationValuec33) Calibration Value
-9673 1097384 (calibrationValued33) Calibration Value
-9674 1096389 (calibrationValuee33) Calibration Value
-9675 1095453 (calibrationValuef33) Calibration Value
-9676 1094932 (calibrationValueg33) Calibration Value
-9677 1094616 (calibrationValueh33) Calibration Value
-9678 1093958 (calibrationValuei33) Calibration Value
-9679 1093903 (calibrationValuej33) Calibration Value
-9680 -2622 (calibrationTemperaturea34) Calibration Temperature
-9681 -1788 (calibrationTemperatureb34) Calibration Temperature
-9682 -586 (calibrationTemperaturec34) Calibration Temperature
-9683 631 (calibrationTemperatured34) Calibration Temperature
-9684 1874 (calibrationTemperaturee34) Calibration Temperature
-9685 3063 (calibrationTemperaturef34) Calibration Temperature
-9686 4221 (calibrationTemperatureg34) Calibration Temperature
-9687 5485 (calibrationTemperatureh34) Calibration Temperature
-9688 6667 (calibrationTemperaturei34) Calibration Temperature
-9689 8504 (calibrationTemperaturej34) Calibration Temperature
-9690 1141237 (calibrationValuea34) Calibration Value
-9691 1140037 (calibrationValueb34) Calibration Value
-9692 1137436 (calibrationValuec34) Calibration Value
-9693 1135556 (calibrationValued34) Calibration Value
-9694 1133754 (calibrationValuee34) Calibration Value
-9695 1132394 (calibrationValuef34) Calibration Value
-9696 1130746 (calibrationValueg34) Calibration Value
-9697 1130098 (calibrationValueh34) Calibration Value
-9698 1128453 (calibrationValuei34) Calibration Value
-9699 1127469 (calibrationValuej34) Calibration Value
-9700 -2622 (calibrationTemperaturea35) Calibration Temperature
-9701 -1788 (calibrationTemperatureb35) Calibration Temperature
-9702 -586 (calibrationTemperaturec35) Calibration Temperature
-9703 631 (calibrationTemperatured35) Calibration Temperature
-9704 1874 (calibrationTemperaturee35) Calibration Temperature
-9705 3063 (calibrationTemperaturef35) Calibration Temperature
-9706 4221 (calibrationTemperatureg35) Calibration Temperature
-9707 5485 (calibrationTemperatureh35) Calibration Temperature
-9708 6667 (calibrationTemperaturei35) Calibration Temperature
-9709 8504 (calibrationTemperaturej35) Calibration Temperature
-9710 1181941 (calibrationValuea35) Calibration Value
-9711 1179656 (calibrationValueb35) Calibration Value
-9712 1176632 (calibrationValuec35) Calibration Value
-9713 1174016 (calibrationValued35) Calibration Value
-9714 1171185 (calibrationValuee35) Calibration Value
-9715 1168975 (calibrationValuef35) Calibration Value
-9716 1167135 (calibrationValueg35) Calibration Value
-9717 1165269 (calibrationValueh35) Calibration Value
-9718 1163459 (calibrationValuei35) Calibration Value
-9719 1161079 (calibrationValuej35) Calibration Value
-9720 -2622 (calibrationTemperaturea36) Calibration Temperature
-9721 -1788 (calibrationTemperatureb36) Calibration Temperature
-9722 -586 (calibrationTemperaturec36) Calibration Temperature
-9723 631 (calibrationTemperatured36) Calibration Temperature
-9724 1874 (calibrationTemperaturee36) Calibration Temperature
-9725 3063 (calibrationTemperaturef36) Calibration Temperature
-9726 4221 (calibrationTemperatureg36) Calibration Temperature
-9727 5485 (calibrationTemperatureh36) Calibration Temperature
-9728 6667 (calibrationTemperaturei36) Calibration Temperature
-9729 8504 (calibrationTemperaturej36) Calibration Temperature
-9730 1370522 (calibrationValuea36) Calibration Value
-9731 1365571 (calibrationValueb36) Calibration Value
-9732 1358635 (calibrationValuec36) Calibration Value
-9733 1352198 (calibrationValued36) Calibration Value
-9734 1345731 (calibrationValuee36) Calibration Value
-9735 1339893 (calibrationValuef36) Calibration Value
-9736 1334728 (calibrationValueg36) Calibration Value
-9737 1329290 (calibrationValueh36) Calibration Value
-9738 1324438 (calibrationValuei36) Calibration Value
-9739 1317495 (calibrationValuej36) Calibration Value
-9740 -2622 (calibrationTemperaturea37) Calibration Temperature
-9741 -1788 (calibrationTemperatureb37) Calibration Temperature
-9742 -586 (calibrationTemperaturec37) Calibration Temperature
-9743 631 (calibrationTemperatured37) Calibration Temperature
-9744 1874 (calibrationTemperaturee37) Calibration Temperature
-9745 3063 (calibrationTemperaturef37) Calibration Temperature
-9746 4221 (calibrationTemperatureg37) Calibration Temperature
-9747 5485 (calibrationTemperatureh37) Calibration Temperature
-9748 6667 (calibrationTemperaturei37) Calibration Temperature
-9749 8504 (calibrationTemperaturej37) Calibration Temperature
-9750 1477957 (calibrationValuea37) Calibration Value
-9751 1471363 (calibrationValueb37) Calibration Value
-9752 1462076 (calibrationValuec37) Calibration Value
-9753 1453543 (calibrationValued37) Calibration Value
-9754 1445022 (calibrationValuee37) Calibration Value
-9755 1437188 (calibrationValuef37) Calibration Value
-9756 1429976 (calibrationValueg37) Calibration Value
-9757 1422665 (calibrationValueh37) Calibration Value
-9758 1415889 (calibrationValuei37) Calibration Value
-9759 1406271 (calibrationValuej37) Calibration Value
-9760 -3917 (calibrationTemperaturea38) Calibration Temperature
-9761 -2249 (calibrationTemperatureb38) Calibration Temperature
-9762 -1086 (calibrationTemperaturec38) Calibration Temperature
-9763 153 (calibrationTemperatured38) Calibration Temperature
-9764 1384 (calibrationTemperaturee38) Calibration Temperature
-9765 2435 (calibrationTemperaturef38) Calibration Temperature
-9766 3603 (calibrationTemperatureg38) Calibration Temperature
-9767 5302 (calibrationTemperatureh38) Calibration Temperature
-9768 7532 (calibrationTemperaturei38) Calibration Temperature
-9769 9686 (calibrationTemperaturej38) Calibration Temperature
-9770 228559 (calibrationValuea38) Calibration Value
-9771 228816 (calibrationValueb38) Calibration Value
-9772 229021 (calibrationValuec38) Calibration Value
-9773 229213 (calibrationValued38) Calibration Value
-9774 229430 (calibrationValuee38) Calibration Value
-9775 229553 (calibrationValuef38) Calibration Value
-9776 229716 (calibrationValueg38) Calibration Value
-9777 229946 (calibrationValueh38) Calibration Value
-9778 230191 (calibrationValuei38) Calibration Value
-9779 230442 (calibrationValuej38) Calibration Value
-9780 -3374 (calibrationTemperaturea39) Calibration Temperature
-9781 -2060 (calibrationTemperatureb39) Calibration Temperature
-9782 -964 (calibrationTemperaturec39) Calibration Temperature
-9783 189 (calibrationTemperatured39) Calibration Temperature
-9784 1406 (calibrationTemperaturee39) Calibration Temperature
-9785 2444 (calibrationTemperaturef39) Calibration Temperature
-9786 3577 (calibrationTemperatureg39) Calibration Temperature
-9787 5176 (calibrationTemperatureh39) Calibration Temperature
-9788 7280 (calibrationTemperaturei39) Calibration Temperature
-9789 9284 (calibrationTemperaturej39) Calibration Temperature
-9790 230210 (calibrationValuea39) Calibration Value
-9791 230471 (calibrationValueb39) Calibration Value
-9792 230664 (calibrationValuec39) Calibration Value
-9793 230876 (calibrationValued39) Calibration Value
-9794 231067 (calibrationValuee39) Calibration Value
-9795 231231 (calibrationValuef39) Calibration Value
-9796 231373 (calibrationValueg39) Calibration Value
-9797 231607 (calibrationValueh39) Calibration Value
-9798 231848 (calibrationValuei39) Calibration Value
-9799 232029 (calibrationValuej39) Calibration Value
-9800 -4352 (calibrationTemperaturea40) Calibration Temperature
-9801 -2385 (calibrationTemperatureb40) Calibration Temperature
-9802 -1212 (calibrationTemperaturec40) Calibration Temperature
-9803 77 (calibrationTemperatured40) Calibration Temperature
-9804 1393 (calibrationTemperaturee40) Calibration Temperature
-9805 2546 (calibrationTemperaturef40) Calibration Temperature
-9806 3768 (calibrationTemperatureg40) Calibration Temperature
-9807 5564 (calibrationTemperatureh40) Calibration Temperature
-9808 7943 (calibrationTemperaturei40) Calibration Temperature
-9809 10293 (calibrationTemperaturej40) Calibration Temperature
-9810 230269 (calibrationValuea40) Calibration Value
-9811 230672 (calibrationValueb40) Calibration Value
-9812 230882 (calibrationValuec40) Calibration Value
-9813 231104 (calibrationValued40) Calibration Value
-9814 231296 (calibrationValuee40) Calibration Value
-9815 231468 (calibrationValuef40) Calibration Value
-9816 231631 (calibrationValueg40) Calibration Value
-9817 231881 (calibrationValueh40) Calibration Value
-9818 232250 (calibrationValuei40) Calibration Value
-9819 232565 (calibrationValuej40) Calibration Value
+9560 -2447 (calibrationTemperaturea28) Calibration Temperature
+9561 -1957 (calibrationTemperatureb28) Calibration Temperature
+9562 -895 (calibrationTemperaturec28) Calibration Temperature
+9563 226 (calibrationTemperatured28) Calibration Temperature
+9564 1379 (calibrationTemperaturee28) Calibration Temperature
+9565 2563 (calibrationTemperaturef28) Calibration Temperature
+9566 3772 (calibrationTemperatureg28) Calibration Temperature
+9567 4974 (calibrationTemperatureh28) Calibration Temperature
+9568 6182 (calibrationTemperaturei28) Calibration Temperature
+9569 7817 (calibrationTemperaturej28) Calibration Temperature
+9570 14347 (calibrationValuea28) Calibration Value
+9571 14353 (calibrationValueb28) Calibration Value
+9572 14341 (calibrationValuec28) Calibration Value
+9573 14336 (calibrationValued28) Calibration Value
+9574 14335 (calibrationValuee28) Calibration Value
+9575 14342 (calibrationValuef28) Calibration Value
+9576 14353 (calibrationValueg28) Calibration Value
+9577 14364 (calibrationValueh28) Calibration Value
+9578 14372 (calibrationValuei28) Calibration Value
+9579 14385 (calibrationValuej28) Calibration Value
+9580 -2447 (calibrationTemperaturea29) Calibration Temperature
+9581 -1957 (calibrationTemperatureb29) Calibration Temperature
+9582 -895 (calibrationTemperaturec29) Calibration Temperature
+9583 226 (calibrationTemperatured29) Calibration Temperature
+9584 1379 (calibrationTemperaturee29) Calibration Temperature
+9585 2563 (calibrationTemperaturef29) Calibration Temperature
+9586 3772 (calibrationTemperatureg29) Calibration Temperature
+9587 4974 (calibrationTemperatureh29) Calibration Temperature
+9588 6182 (calibrationTemperaturei29) Calibration Temperature
+9589 7817 (calibrationTemperaturej29) Calibration Temperature
+9590 14065 (calibrationValuea29) Calibration Value
+9591 14070 (calibrationValueb29) Calibration Value
+9592 14058 (calibrationValuec29) Calibration Value
+9593 14052 (calibrationValued29) Calibration Value
+9594 14051 (calibrationValuee29) Calibration Value
+9595 14057 (calibrationValuef29) Calibration Value
+9596 14068 (calibrationValueg29) Calibration Value
+9597 14078 (calibrationValueh29) Calibration Value
+9598 14087 (calibrationValuei29) Calibration Value
+9599 14098 (calibrationValuej29) Calibration Value
+9600 -2447 (calibrationTemperaturea30) Calibration Temperature
+9601 -1957 (calibrationTemperatureb30) Calibration Temperature
+9602 -895 (calibrationTemperaturec30) Calibration Temperature
+9603 226 (calibrationTemperatured30) Calibration Temperature
+9604 1379 (calibrationTemperaturee30) Calibration Temperature
+9605 2563 (calibrationTemperaturef30) Calibration Temperature
+9606 3772 (calibrationTemperatureg30) Calibration Temperature
+9607 4974 (calibrationTemperatureh30) Calibration Temperature
+9608 6182 (calibrationTemperaturei30) Calibration Temperature
+9609 7817 (calibrationTemperaturej30) Calibration Temperature
+9610 13786 (calibrationValuea30) Calibration Value
+9611 13792 (calibrationValueb30) Calibration Value
+9612 13779 (calibrationValuec30) Calibration Value
+9613 13775 (calibrationValued30) Calibration Value
+9614 13773 (calibrationValuee30) Calibration Value
+9615 13778 (calibrationValuef30) Calibration Value
+9616 13791 (calibrationValueg30) Calibration Value
+9617 13798 (calibrationValueh30) Calibration Value
+9618 13809 (calibrationValuei30) Calibration Value
+9619 13818 (calibrationValuej30) Calibration Value
+9620 -2447 (calibrationTemperaturea31) Calibration Temperature
+9621 -1957 (calibrationTemperatureb31) Calibration Temperature
+9622 -895 (calibrationTemperaturec31) Calibration Temperature
+9623 226 (calibrationTemperatured31) Calibration Temperature
+9624 1379 (calibrationTemperaturee31) Calibration Temperature
+9625 2563 (calibrationTemperaturef31) Calibration Temperature
+9626 3772 (calibrationTemperatureg31) Calibration Temperature
+9627 4974 (calibrationTemperatureh31) Calibration Temperature
+9628 6182 (calibrationTemperaturei31) Calibration Temperature
+9629 7817 (calibrationTemperaturej31) Calibration Temperature
+9630 13243 (calibrationValuea31) Calibration Value
+9631 13242 (calibrationValueb31) Calibration Value
+9632 13231 (calibrationValuec31) Calibration Value
+9633 13226 (calibrationValued31) Calibration Value
+9634 13226 (calibrationValuee31) Calibration Value
+9635 13230 (calibrationValuef31) Calibration Value
+9636 13240 (calibrationValueg31) Calibration Value
+9637 13249 (calibrationValueh31) Calibration Value
+9638 13257 (calibrationValuei31) Calibration Value
+9639 13264 (calibrationValuej31) Calibration Value
+9640 -2447 (calibrationTemperaturea32) Calibration Temperature
+9641 -1957 (calibrationTemperatureb32) Calibration Temperature
+9642 -895 (calibrationTemperaturec32) Calibration Temperature
+9643 226 (calibrationTemperatured32) Calibration Temperature
+9644 1379 (calibrationTemperaturee32) Calibration Temperature
+9645 2563 (calibrationTemperaturef32) Calibration Temperature
+9646 3772 (calibrationTemperatureg32) Calibration Temperature
+9647 4974 (calibrationTemperatureh32) Calibration Temperature
+9648 6182 (calibrationTemperaturei32) Calibration Temperature
+9649 7817 (calibrationTemperaturej32) Calibration Temperature
+9650 5769 (calibrationValuea32) Calibration Value
+9651 5769 (calibrationValueb32) Calibration Value
+9652 5764 (calibrationValuec32) Calibration Value
+9653 5763 (calibrationValued32) Calibration Value
+9654 5761 (calibrationValuee32) Calibration Value
+9655 5763 (calibrationValuef32) Calibration Value
+9656 5766 (calibrationValueg32) Calibration Value
+9657 5766 (calibrationValueh32) Calibration Value
+9658 5765 (calibrationValuei32) Calibration Value
+9659 5759 (calibrationValuej32) Calibration Value
+9660 -2501 (calibrationTemperaturea33) Calibration Temperature
+9661 -1873 (calibrationTemperatureb33) Calibration Temperature
+9662 -754 (calibrationTemperaturec33) Calibration Temperature
+9663 383 (calibrationTemperatured33) Calibration Temperature
+9664 1533 (calibrationTemperaturee33) Calibration Temperature
+9665 2727 (calibrationTemperaturef33) Calibration Temperature
+9666 3942 (calibrationTemperatureg33) Calibration Temperature
+9667 5144 (calibrationTemperatureh33) Calibration Temperature
+9668 6367 (calibrationTemperaturei33) Calibration Temperature
+9669 8057 (calibrationTemperaturej33) Calibration Temperature
+9670 1145753 (calibrationValuea33) Calibration Value
+9671 1144967 (calibrationValueb33) Calibration Value
+9672 1144534 (calibrationValuec33) Calibration Value
+9673 1144492 (calibrationValued33) Calibration Value
+9674 1144289 (calibrationValuee33) Calibration Value
+9675 1143908 (calibrationValuef33) Calibration Value
+9676 1143901 (calibrationValueg33) Calibration Value
+9677 1144212 (calibrationValueh33) Calibration Value
+9678 1144456 (calibrationValuei33) Calibration Value
+9679 1145068 (calibrationValuej33) Calibration Value
+9680 -2501 (calibrationTemperaturea34) Calibration Temperature
+9681 -1873 (calibrationTemperatureb34) Calibration Temperature
+9682 -754 (calibrationTemperaturec34) Calibration Temperature
+9683 383 (calibrationTemperatured34) Calibration Temperature
+9684 1533 (calibrationTemperaturee34) Calibration Temperature
+9685 2727 (calibrationTemperaturef34) Calibration Temperature
+9686 3942 (calibrationTemperatureg34) Calibration Temperature
+9687 5144 (calibrationTemperatureh34) Calibration Temperature
+9688 6367 (calibrationTemperaturei34) Calibration Temperature
+9689 8057 (calibrationTemperaturej34) Calibration Temperature
+9690 1184746 (calibrationValuea34) Calibration Value
+9691 1183847 (calibrationValueb34) Calibration Value
+9692 1182357 (calibrationValuec34) Calibration Value
+9693 1181197 (calibrationValued34) Calibration Value
+9694 1180184 (calibrationValuee34) Calibration Value
+9695 1179320 (calibrationValuef34) Calibration Value
+9696 1178741 (calibrationValueg34) Calibration Value
+9697 1178184 (calibrationValueh34) Calibration Value
+9698 1177905 (calibrationValuei34) Calibration Value
+9699 1178097 (calibrationValuej34) Calibration Value
+9700 -2501 (calibrationTemperaturea35) Calibration Temperature
+9701 -1873 (calibrationTemperatureb35) Calibration Temperature
+9702 -754 (calibrationTemperaturec35) Calibration Temperature
+9703 383 (calibrationTemperatured35) Calibration Temperature
+9704 1533 (calibrationTemperaturee35) Calibration Temperature
+9705 2727 (calibrationTemperaturef35) Calibration Temperature
+9706 3942 (calibrationTemperatureg35) Calibration Temperature
+9707 5144 (calibrationTemperatureh35) Calibration Temperature
+9708 6367 (calibrationTemperaturei35) Calibration Temperature
+9709 8057 (calibrationTemperaturej35) Calibration Temperature
+9710 1223891 (calibrationValuea35) Calibration Value
+9711 1222577 (calibrationValueb35) Calibration Value
+9712 1220534 (calibrationValuec35) Calibration Value
+9713 1218751 (calibrationValued35) Calibration Value
+9714 1216620 (calibrationValuee35) Calibration Value
+9715 1215306 (calibrationValuef35) Calibration Value
+9716 1213956 (calibrationValueg35) Calibration Value
+9717 1212610 (calibrationValueh35) Calibration Value
+9718 1211663 (calibrationValuei35) Calibration Value
+9719 1210923 (calibrationValuej35) Calibration Value
+9720 -2501 (calibrationTemperaturea36) Calibration Temperature
+9721 -1873 (calibrationTemperatureb36) Calibration Temperature
+9722 -754 (calibrationTemperaturec36) Calibration Temperature
+9723 383 (calibrationTemperatured36) Calibration Temperature
+9724 1533 (calibrationTemperaturee36) Calibration Temperature
+9725 2727 (calibrationTemperaturef36) Calibration Temperature
+9726 3942 (calibrationTemperatureg36) Calibration Temperature
+9727 5144 (calibrationTemperatureh36) Calibration Temperature
+9728 6367 (calibrationTemperaturei36) Calibration Temperature
+9729 8057 (calibrationTemperaturej36) Calibration Temperature
+9730 1405711 (calibrationValuea36) Calibration Value
+9731 1402161 (calibrationValueb36) Calibration Value
+9732 1396599 (calibrationValuec36) Calibration Value
+9733 1391454 (calibrationValued36) Calibration Value
+9734 1386167 (calibrationValuee36) Calibration Value
+9735 1381488 (calibrationValuef36) Calibration Value
+9736 1376758 (calibrationValueg36) Calibration Value
+9737 1372461 (calibrationValueh36) Calibration Value
+9738 1368399 (calibrationValuei36) Calibration Value
+9739 1363378 (calibrationValuej36) Calibration Value
+9740 -2501 (calibrationTemperaturea37) Calibration Temperature
+9741 -1873 (calibrationTemperatureb37) Calibration Temperature
+9742 -754 (calibrationTemperaturec37) Calibration Temperature
+9743 383 (calibrationTemperatured37) Calibration Temperature
+9744 1533 (calibrationTemperaturee37) Calibration Temperature
+9745 2727 (calibrationTemperaturef37) Calibration Temperature
+9746 3942 (calibrationTemperatureg37) Calibration Temperature
+9747 5144 (calibrationTemperatureh37) Calibration Temperature
+9748 6367 (calibrationTemperaturei37) Calibration Temperature
+9749 8057 (calibrationTemperaturej37) Calibration Temperature
+9750 1509288 (calibrationValuea37) Calibration Value
+9751 1504394 (calibrationValueb37) Calibration Value
+9752 1496841 (calibrationValuec37) Calibration Value
+9753 1489705 (calibrationValued37) Calibration Value
+9754 1482695 (calibrationValuee37) Calibration Value
+9755 1475846 (calibrationValuef37) Calibration Value
+9756 1469343 (calibrationValueg37) Calibration Value
+9757 1463183 (calibrationValueh37) Calibration Value
+9758 1457373 (calibrationValuei37) Calibration Value
+9759 1450063 (calibrationValuej37) Calibration Value
+9760 -4031 (calibrationTemperaturea38) Calibration Temperature
+9761 -2227 (calibrationTemperatureb38) Calibration Temperature
+9762 -1006 (calibrationTemperaturec38) Calibration Temperature
+9763 212 (calibrationTemperatured38) Calibration Temperature
+9764 1516 (calibrationTemperaturee38) Calibration Temperature
+9765 2668 (calibrationTemperaturef38) Calibration Temperature
+9766 3731 (calibrationTemperatureg38) Calibration Temperature
+9767 5424 (calibrationTemperatureh38) Calibration Temperature
+9768 7704 (calibrationTemperaturei38) Calibration Temperature
+9769 9899 (calibrationTemperaturej38) Calibration Temperature
+9770 -200656 (calibrationValuea38) Calibration Value
+9771 -200624 (calibrationValueb38) Calibration Value
+9772 -200604 (calibrationValuec38) Calibration Value
+9773 -200595 (calibrationValued38) Calibration Value
+9774 -200598 (calibrationValuee38) Calibration Value
+9775 -200593 (calibrationValuef38) Calibration Value
+9776 -200614 (calibrationValueg38) Calibration Value
+9777 -200626 (calibrationValueh38) Calibration Value
+9778 -200683 (calibrationValuei38) Calibration Value
+9779 -200743 (calibrationValuej38) Calibration Value
+9780 -3330 (calibrationTemperaturea39) Calibration Temperature
+9781 -2257 (calibrationTemperatureb39) Calibration Temperature
+9782 -1038 (calibrationTemperaturec39) Calibration Temperature
+9783 160 (calibrationTemperatured39) Calibration Temperature
+9784 1467 (calibrationTemperaturee39) Calibration Temperature
+9785 2633 (calibrationTemperaturef39) Calibration Temperature
+9786 3678 (calibrationTemperatureg39) Calibration Temperature
+9787 5300 (calibrationTemperatureh39) Calibration Temperature
+9788 7495 (calibrationTemperaturei39) Calibration Temperature
+9789 9540 (calibrationTemperaturej39) Calibration Temperature
+9790 -208690 (calibrationValuea39) Calibration Value
+9791 -208804 (calibrationValueb39) Calibration Value
+9792 -208907 (calibrationValuec39) Calibration Value
+9793 -209017 (calibrationValued39) Calibration Value
+9794 -209145 (calibrationValuee39) Calibration Value
+9795 -209278 (calibrationValuef39) Calibration Value
+9796 -209403 (calibrationValueg39) Calibration Value
+9797 -209642 (calibrationValueh39) Calibration Value
+9798 -210036 (calibrationValuei39) Calibration Value
+9799 -210548 (calibrationValuej39) Calibration Value
+9800 -4223 (calibrationTemperaturea40) Calibration Temperature
+9801 -2312 (calibrationTemperatureb40) Calibration Temperature
+9802 -1052 (calibrationTemperaturec40) Calibration Temperature
+9803 243 (calibrationTemperatured40) Calibration Temperature
+9804 1512 (calibrationTemperaturee40) Calibration Temperature
+9805 2719 (calibrationTemperaturef40) Calibration Temperature
+9806 3788 (calibrationTemperatureg40) Calibration Temperature
+9807 5522 (calibrationTemperatureh40) Calibration Temperature
+9808 7858 (calibrationTemperaturei40) Calibration Temperature
+9809 10080 (calibrationTemperaturej40) Calibration Temperature
+9810 -192450 (calibrationValuea40) Calibration Value
+9811 -193424 (calibrationValueb40) Calibration Value
+9812 -193892 (calibrationValuec40) Calibration Value
+9813 -194294 (calibrationValued40) Calibration Value
+9814 -194612 (calibrationValuee40) Calibration Value
+9815 -194941 (calibrationValuef40) Calibration Value
+9816 -195265 (calibrationValueg40) Calibration Value
+9817 -195752 (calibrationValueh40) Calibration Value
+9818 -196438 (calibrationValuei40) Calibration Value
+9819 -197180 (calibrationValuej40) Calibration Value
 9820 0 (calibrationTemperaturea41) Calibration Temperature
 9821 0 (calibrationTemperatureb41) Calibration Temperature
 9822 0 (calibrationTemperaturec41) Calibration Temperature
